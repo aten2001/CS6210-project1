@@ -11,10 +11,8 @@ VM_PREFIX="aos"
 if __name__ == '__main__':
     manager = VMManager()
     manager.setAllVmsMemoryWithFilter(VM_PREFIX,512)
-
+    vms = manager.getRunningVMNames(VM_PREFIX)
     print('Start testcase 3')
-    for vmname in vms:
-        manager.pinVCpuToPCpu(vmname,0,0)
     ips = TestLib.getIps(vms)
     ipsAndVals = dict()
     tmp=0

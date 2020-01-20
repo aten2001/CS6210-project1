@@ -1,8 +1,7 @@
 ### Configuration
 
 1. Create 4 virtual machines.
-2. Put their name in vmlist.conf
-3. Shutdown all of them and run setallmaxmemory.py
+2. Shutdown all of them and run setallmaxmemory.py
 
 ### Running testcases
 
