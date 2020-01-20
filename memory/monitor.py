@@ -8,6 +8,10 @@ from testLibrary import TestLib
 import sched, time
 
 VM_PREFIX="aos"
+def print_line(x):
+    for i in range(x):
+        print('-', end = "")
+    print("")
 
 def run(sc,vmobjlist,machineParseable):
     i = 0
@@ -19,10 +23,12 @@ def run(sc,vmobjlist,machineParseable):
                         stats['actual'] / 1024.0,
                         stats['unused'] / 1024.0))
         else:
+            print_line(50)
             print("Memory (VM: {})  Actual [{}], Unused: [{}]"
                     .format(vm.name(), 
                         stats['actual'] / 1024.0,
                         stats['unused'] / 1024.0))
+            print_line(50)
 
         i+=1
     sc.enter(2, 1, run, (sc,vmobjlist,machineParseable))

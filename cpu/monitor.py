@@ -9,6 +9,10 @@ from testLibrary import TestLib
 import sched, time
 
 VM_PREFIX="aos"
+def print_line(x):
+    for i in range(x):
+        print('-', end = "")
+    print("")
 
 def which_cpu(vcpuinfo):
     return vcpuinfo[0][0][3]
@@ -38,8 +42,10 @@ def run(sc,numpcpu,vmlist,vmobjlist,vminfolist,machineParseable):
             for mapping in cpulist[i]['mapping']:
                 print('mapping,{},{}'.format(i,mapping))
     else:
+        print_line(50) 
         for i in range(numpcpu):
             print('{} - usage: {} | mapping {}'.format(i,cpulist[i]['usage'] * 100,cpulist[i]['mapping']))
+        print_line(50) 
 
     s.enter(1, 1, run, (s,numpcpu,vmlist,vmobjlist,vminfolist,machineParseable,))
 
