@@ -68,6 +68,14 @@ class VMManager:
         else:
             print("Error happened pinning a vcpu for vm [{}]".format(name))
 
+    def upinVCpu(self,vmName,vCpu):
+        vm = self.getVmObject(vmName)
+        pinlist = [True] * self.getPhysicalCpus()
+        if vm:
+            vm.pinVcpu(vCpu,pinTuple)
+        else:
+            print("Error happened pinning a vcpu for vm [{}]".format(name))
+
     def setMemory(self,vmName,memory):
         vm = self.getVmObject(vmName)
         if vm:
