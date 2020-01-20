@@ -11,7 +11,7 @@ if __name__ == '__main__':
     manager = VMManager()
     vms = manager.getRunningVMNames(VM_PREFIX)
     pinLists =  [ 0,
-                  1]
+                  -1]
     nextPinList = 0  
     for vmname in vms:
         manager.pinVCpuToPCpu(vmname,0,pinLists[nextPinList])
