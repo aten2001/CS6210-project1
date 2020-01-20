@@ -2,8 +2,9 @@
 
 from __future__ import print_function
 from vm import VMManager
+import time
 
-global VM_PREFIX="aos"
+VM_PREFIX="aos"
 
 if __name__ == '__main__':
     manager = VMManager()
