@@ -1,20 +1,14 @@
 #!/usr/bin/python
 
 from __future__ import print_function
-import libvirt
+from vm import VMManager
 import time
 
-CONFIG_FILE = 'vmlist.conf'
+VM_PREFIX = "aos"
 
 if __name__ == '__main__':
-    conn = libvirt.open('qemu:///system')
-    vmlist = open(CONFIG_FILE, 'r').read().strip().split()
-    for vmname in vmlist:
-        vm = conn.lookupByName(vmname)
-        if vm:
-            print('Shutdown {}.'.format(vmname))
-            vm.shutdown()
-        else:
-            print('Unable to locate {}.'.format(vmname))
-
+    manager = VMManager() 
+    vms=manager.getRunningVMNames(filterPrefix=VM_PREFIX)
+    for vmname in vms:
+        manager.shutdown(vmname)
     time.sleep(5)

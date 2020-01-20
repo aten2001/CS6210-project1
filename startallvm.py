@@ -1,20 +1,14 @@
 #!/usr/bin/python
 
 from __future__ import print_function
-import libvirt
+from vm import VMManager
 import time
 
-CONFIG_FILE = 'vmlist.conf'
+VM_PREFIX = "aos"
 
 if __name__ == '__main__':
-    conn = libvirt.open('qemu:///system')
-    vmlist = open(CONFIG_FILE, 'r').read().strip().split()
+    manager = VMManager()
+    vms = manager.getFilteredVms(VM_PREFIX)
     for vmname in vmlist:
-        vm = conn.lookupByName(vmname)
-        if vm:
-            print('Launch {}.'.format(vmname))
-            vm.create()
-        else:
-            print('Unable to locate {}.'.format(vmname))
-
+        manager.startVM(vmname)
     time.sleep(5)

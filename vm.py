@@ -13,9 +13,12 @@ class VMManager:
         hostinfo = self.conn.getInfo()
         return hostinfo[4] * hostinfo[5] * hostinfo[6] * hostinfo[7]
 
-    def getRunningVMNames(self):
+    def getRunningVMNames(self,filterPrefix=None):
         domainIDs = self.conn.listDomainsID()
-        return [conn.lookupByID(id).name() for id in domainIDs]
+        vms = [conn.lookupByID(id).name() for id in domainIDs]
+        if filter:
+            return [vm for vm in vms if vm.startswith(filterPrefix)]
+        return vms
 
     def getAllVMNames(self):
         return [domain.name() for domain in self.conn.conn.listAllDomains(0)]
@@ -35,6 +38,20 @@ class VMManager:
         else:
             print("Error happened starting vm [{}]".format(name))
 
+    def destroyVM(self,name):
+        vm = self.getVmObject(name)
+        if vm:
+            vm.destroy()
+        else:
+            print("Error happened destroying vm [{}]".format(name))
+
+    def shutdownVM(self,name):
+        vm = self.getVmObject(name)
+        if vm:
+            vm.shutdown()
+        else:
+            print("Error happened shutting down vm [{}]".format(name))
+
     def getPinTupleToOneCpu(self,pCpu):
         pinlist = [False] * self.getPhysicalCpus()
         pinlist[pCpu]=True
@@ -46,12 +63,27 @@ class VMManager:
         if vm:
             vm.pinVcpu(vCpu,pinTuple)
         else:
-            print("Error happened pping a vcpu for vm [{}]".format(name))
+            print("Error happened pinning a vcpu for vm [{}]".format(name))
 
-    def startAllVMsWithFilter(self,filterPrefix, waitTime=5):
+    def setMemory(self,vmName,memory):
+        vm = self.getVmObject(vmName)
+        if vm:
+            vm.setMemory(memory*1024)
+        else:
+            print("Error happened setting memory for vm [{}]".format(name))
+
+    def getFilteredVms(self,filterPrefix):
         vms=self.getAllVMNames()
         filtered = [vm for vm in vms if vm.startswith(filterPrefix)]
+        return filtered
+
+    def setAllVmsMemoryWithFilter(self,filterPrefix,newMemory):
+        filtered = self.getFilteredVms(filterPrefix)
+        for vmName in filtered:
+            self.setMemory(vmName,newMemory)
+
+    def startAllVMsWithFilter(self,filterPrefix, waitTime=5):
+        filtered = self.getFilteredVms(filterPrefix)
         for vm in filtered:
             startVM(vm)
         time.sleep(waitTime)
-
