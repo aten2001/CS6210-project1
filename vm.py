@@ -75,6 +75,13 @@ class VMManager:
         else:
             print("Error happened setting memory for vm [{}]".format(name))
 
+    def setMaxMemory(self,vmName,memory):
+        vm = self.getVmObject(vmName)
+        if vm:
+            vm.setMaxMemory(memory*1024)
+        else:
+            print("Error happened setting memory for vm [{}]".format(name))
+
     def getFilteredVms(self,filterPrefix):
         vms=self.getAllVMNames()
         filtered = [vm for vm in vms if vm.startswith(filterPrefix)]
@@ -84,6 +91,11 @@ class VMManager:
         filtered = self.getFilteredVms(filterPrefix)
         for vmName in filtered:
             self.setMemory(vmName,newMemory)
+
+    def setAllVmsMaxMemoryWithFilter(self,filterPrefix,newMemory):
+        filtered = self.getFilteredVms(filterPrefix)
+        for vmName in filtered:
+            self.setMaxMemory(vmName,newMemory)
 
     def startAllVMsWithFilter(self,filterPrefix, waitTime=5):
         filtered = self.getFilteredVms(filterPrefix)
