@@ -72,7 +72,7 @@ class VMManager:
         vm = self.getVmObject(vmName)
         pinlist = [True] * self.getPhysicalCpus()
         if vm:
-            vm.pinVcpu(vCpu,pinTuple)
+            vm.pinVcpu(vCpu,tuple(pinlist))
         else:
             print("Error happened pinning a vcpu for vm [{}]".format(name))
 

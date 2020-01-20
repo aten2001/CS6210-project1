@@ -11,7 +11,7 @@ if __name__ == '__main__':
     manager = VMManager()
     vms = manager.getRunningVMNames(VM_PREFIX)
     for vmname in vms:
-        manager.upinVCpu(vmName,0):
+        manager.upinVCpu(vmname,0)
     ips = TestLib.getIps(vms)
     ipsAndVals = { ip : [100000] for ip in ips }
     TestLib.startTestCase("~/cpu/testcases/4/iambusy {}",ipsAndVals)
