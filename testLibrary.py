@@ -3,20 +3,23 @@ import os
 import subprocess
 
 class TestLib:
+    @staticmethod
     def getIps(vmNames):
         baseCmd = 'uvt-kvm ip {}'
         return [os.popen(baseCmd.format(vm)).read().strip() for vm in vmNames]
 
+    @staticmethod
     def copyFiles(fileLocation,vmNames):
-        ips = getIps(vmNames) 
+        ips = TestLib.getIps(vmNames) 
         for ip in ips:
             print('Copy {} to {}.'.format(fileLocation, ip))
             os.popen('scp -r {} ubuntu@{}:~/'.format(fileLocation, ip))
 
-    def startTestCase(templateCmd, ipAndValues)
+    @staticmethod
+    def startTestCase(templateCmd, ipAndValues):
         FNULL = open(os.devnull, 'w')
         pipes = dict()
-        for ip,vals in ipAndValues:
+        for ip,vals in ipAndValues.items():
             sshCmd = "ssh ubuntu@{} '".format(ip)
             sshCmd += templateCmd + "'"
             try:

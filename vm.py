@@ -15,8 +15,8 @@ class VMManager:
 
     def getRunningVMNames(self,filterPrefix=None):
         domainIDs = self.conn.listDomainsID()
-        vms = [conn.lookupByID(id).name() for id in domainIDs]
-        if filter:
+        vms = [self.conn.lookupByID(id).name() for id in domainIDs]
+        if filterPrefix:
             return [vm for vm in vms if vm.startswith(filterPrefix)]
         return vms
 
@@ -25,16 +25,19 @@ class VMManager:
 
     def getVmObject(self,vmName):
         try:
-            vm = self.conn.lookupByName(name)
+            vm = self.conn.lookupByName(vmName)
         except libvirt.libvirtError:
-            print("Name used for starting vm is invalid [{}]".format(name))
-            raise Exception("Name used for vm is invalid, please check the configuration for [{}] and/or if the VM was already created".format(name))
+            print("Name used for starting vm is invalid [{}]".format(vmName))
+            raise Exception("Name used for vm is invalid, please check the configuration for [{}] and/or if the VM was already created".format(vmName))
         return vm
 
     def startVM(self,name):
         vm = self.getVmObject(name)
         if vm:
-            vm.create()
+            try:
+                vm.create()
+            except libvirt.libvirtError:
+                print("Issues starting vm [{}], most likely it was already running".format(vmName))
         else:
             print("Error happened starting vm [{}]".format(name))
 
@@ -85,5 +88,5 @@ class VMManager:
     def startAllVMsWithFilter(self,filterPrefix, waitTime=5):
         filtered = self.getFilteredVms(filterPrefix)
         for vm in filtered:
-            startVM(vm)
+            self.startVM(vm)
         time.sleep(waitTime)

@@ -4,7 +4,7 @@ from __future__ import print_function
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from vm import VMManager
-from TestLibrary import TestLib
+from testLibrary import TestLib
 import sched, time
 
 VM_PREFIX="aos"
@@ -16,6 +16,7 @@ def which_usage(newinfo, oldinfo):
     return ( newinfo[0][0][2] - oldinfo[0][0][2]) * 1.0 / (10 ** 9)
 
 def run(sc,numpcpu,vmlist,vmobjlist,vminfolist):
+    cpulist = {}
     for i in range(numpcpu):
         cpulist[i] = {}
         cpulist[i]['mapping'] = []
@@ -35,7 +36,7 @@ def run(sc,numpcpu,vmlist,vmobjlist,vminfolist):
         for mapping in cpulist[i]['mapping']:
             print('mapping,{},{}'.format(i,mapping))
 
-    s.enter(1, 1, run, (s,numcpu,vmlist,vmobjlist,vminfolist,))
+    s.enter(1, 1, run, (s,numpcpu,vmlist,vmobjlist,vminfolist,))
 
 if __name__ == '__main__':
     s = sched.scheduler(time.time, time.sleep)
@@ -45,5 +46,5 @@ if __name__ == '__main__':
     vminfolist = [None] * len(vmobjlist)
     numpcpu = manager.getPhysicalCpus() 
     
-    s.enter(1, 1, run, (s,numcpu,vmlist,vmobjlist,vminfolist))
+    s.enter(1, 1, run, (s,numpcpu,vmlist,vmobjlist,vminfolist))
     s.run()

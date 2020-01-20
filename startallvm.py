@@ -9,6 +9,6 @@ VM_PREFIX = "aos"
 if __name__ == '__main__':
     manager = VMManager()
     vms = manager.getFilteredVms(VM_PREFIX)
-    for vmname in vmlist:
+    for vmname in vms:
         manager.startVM(vmname)
     time.sleep(5)
