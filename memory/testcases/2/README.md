@@ -6,5 +6,5 @@
 
 ### The second stage
 
-1. All virtual machines free memory.
+1. All virtual machines free memory gradually.
 2. __Expected outcome__: all virtual machines give memory resources to host.
