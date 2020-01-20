@@ -11,7 +11,7 @@ if __name__ == '__main__':
     manager = VMManager()
     vms = manager.getRunningVMNames(VM_PREFIX)
     for vmname in vms:
-        manager.pinVCpuToPCpu(vmname,0,0)
+        manager.upinVCpu(vmname,0)
     ips = TestLib.getIps(vms)
     ipsAndVals = dict()
     i = 0
