@@ -45,7 +45,6 @@ def run(sc,numpcpu,vmlist,vmobjlist,vminfolist,machineParseable):
         print_line(50) 
         for i in range(numpcpu):
             print('{} - usage: {} | mapping {}'.format(i,cpulist[i]['usage'] * 100,cpulist[i]['mapping']))
-        print_line(50) 
 
     s.enter(1, 1, run, (s,numpcpu,vmlist,vmobjlist,vminfolist,machineParseable,))
 

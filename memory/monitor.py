@@ -15,6 +15,7 @@ def print_line(x):
 
 def run(sc,vmobjlist,machineParseable):
     i = 0
+    print_line(50)
     for vm in vmobjlist:
         stats = vm.memoryStats()
         if machineParseable:
@@ -23,12 +24,10 @@ def run(sc,vmobjlist,machineParseable):
                         stats['actual'] / 1024.0,
                         stats['unused'] / 1024.0))
         else:
-            print_line(50)
             print("Memory (VM: {})  Actual [{}], Unused: [{}]"
                     .format(vm.name(), 
                         stats['actual'] / 1024.0,
                         stats['unused'] / 1024.0))
-            print_line(50)
 
         i+=1
     sc.enter(2, 1, run, (sc,vmobjlist,machineParseable))

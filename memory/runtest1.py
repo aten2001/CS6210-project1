@@ -13,6 +13,6 @@ if __name__ == '__main__':
     manager.setAllVmsMemoryWithFilter(VM_PREFIX,512)
     print('Start testcase 1')
     vms = manager.getRunningVMNames(VM_PREFIX)
-    ips = TestLib.getIps(vms)
-    ipsAndVals = { ip : [] for ip in ips }
+    ips = TestLib.getIps(vms) #first vm only
+    ipsAndVals = { ips[0] : [] }
     TestLib.startTestCase("~/testcases/1/run",ipsAndVals)
