@@ -1,24 +1,13 @@
 #!/usr/bin/python
 
 from __future__ import print_function
-import libvirt
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from vm import VMManager
+from TestLibrary import TestLib
 import sched, time
 
-CONFIG_FILE = '../vmlist.conf'
-
-global conn
-global vmlist
-global vmobjlist
-global cpulist
-global vminfolist
-global numpcpu
-global s
-
-s = sched.scheduler(time.time, time.sleep)
-
-def get_pcpu():
-    hostinfo = conn.getInfo()
-    return hostinfo[4] * hostinfo[5] * hostinfo[6] * hostinfo[7]
+VM_PREFIX="aos"
 
 def which_cpu(vcpuinfo):
     return vcpuinfo[0][0][3]
@@ -26,7 +15,7 @@ def which_cpu(vcpuinfo):
 def which_usage(newinfo, oldinfo):
     return ( newinfo[0][0][2] - oldinfo[0][0][2]) * 1.0 / (10 ** 9)
 
-def run(sc):
+def run(sc,numpcpu,vmlist,vmobjlist,vminfolist):
     for i in range(numpcpu):
         cpulist[i] = {}
         cpulist[i]['mapping'] = []
@@ -34,7 +23,6 @@ def run(sc):
 
     for i in range(len(vmobjlist)):
         newinfo = vmobjlist[i].vcpus()
-        print('{}: {}'.format(vmlist[i], newinfo))
         if vminfolist[i]:
             cpu = which_cpu(newinfo)
             usage = which_usage(newinfo, vminfolist[i])
@@ -42,31 +30,20 @@ def run(sc):
             cpulist[cpu]['usage'] += usage
         vminfolist[i] = newinfo
     
-    print('-' * 80)
     for i in range(numpcpu):
-        print('{}: {} {}'.format(i, cpulist[i]['usage'] * 100, cpulist[i]['mapping']))
+        print('usage,{},{}'.format(i,cpulist[i]['usage'] * 100))
+        for mapping in cpulist[i]['mapping']:
+            print('mapping,{},{}'.format(i,mapping))
 
-    print('-' * 80)
-
-    s.enter(1, 1, run, (sc,))
+    s.enter(1, 1, run, (s,numcpu,vmlist,vmobjlist,vminfolist,))
 
 if __name__ == '__main__':
-    conn = libvirt.open('qemu:///system')
-    vmlist = open(CONFIG_FILE, 'r').read().strip().split()
-
-    vmobjlist = []   
-
-    for vmname in vmlist:
-        vm = conn.lookupByName(vmname)
-        if vm:
-            vmobjlist.append(vm)
-        else:
-            print('Unable to locate {}.'.format(vmnane))
-            exit(-1)
-    
+    s = sched.scheduler(time.time, time.sleep)
+    manager=VMManager()
+    vmlist = manager.getRunningVMNames(VM_PREFIX)
+    vmobjlist = [manager.getVmObject(name) for name in vmlist]   
     vminfolist = [None] * len(vmobjlist)
-    numpcpu = get_pcpu()
-    cpulist = [None] * numpcpu 
+    numpcpu = manager.getPhysicalCpus() 
     
-    s.enter(1, 1, run, (s,))
+    s.enter(1, 1, run, (s,numcpu,vmlist,vmobjlist,vminfolist))
     s.run()

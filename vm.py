@@ -21,9 +21,9 @@ class VMManager:
         return vms
 
     def getAllVMNames(self):
-        return [domain.name() for domain in self.conn.conn.listAllDomains(0)]
+        return [domain.name() for domain in self.conn.listAllDomains(0)]
 
-    def getVmObject(self,vmName)
+    def getVmObject(self,vmName):
         try:
             vm = self.conn.lookupByName(name)
         except libvirt.libvirtError:
