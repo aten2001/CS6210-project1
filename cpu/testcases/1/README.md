@@ -1,7 +1,7 @@
 # Test Case 1
 
-In this test case, you will run 8 virtual machines that start with an equal affinity to each pCPU (i.e., the vCPU of each VM is equally like to run on any pCPU of the host). The vCPU of each VM will process the same workload.
+In this test case, you will run 8 virtual machines that all start pinned to pCPU0. The vCPU of each VM will process the same workload.
 
 ## Expected Outcome
 
-Each pCPU will exhibit an equal balance of vCPUs given the assigned workloads.
+Each pCPU will exhibit an equal balance of vCPUs given the assigned workloads (e.g., if there are 8 pCPUs and 8 vCPUs, then there would be 1 vCPU per pCPU).
