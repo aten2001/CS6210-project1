@@ -1,25 +1,15 @@
 #!/usr/bin/python
-
 from __future__ import print_function
-import libvirt
-import os
-import sys
-import subprocess
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from vm import VMManager
+from testLibrary import TestLib
 
-CONFIG_FILE = '../vmlist.conf'
+VM_PREFIX="aos"
 
 if __name__ == '__main__':
-
-    conn = libvirt.open('qemu:///system')
-    vmlist = open(CONFIG_FILE, 'r').read().strip().split()
-    iplist = []
-
-    for vmname in vmlist:
-        iplist.append(os.popen('uvt-kvm ip {}'.format(vmname)).read().strip())
-
-    FNULL = open(os.devnull, 'w') 
-    
-    for i in range(len(vmlist)):
-        print('{} stop running.'.format(vmlist[i]))
-        subprocess.Popen("ssh ubuntu@{} 'killall run'".format(iplist[i]), stdout=FNULL, shell=True)
-
+    manager = VMManager()
+    vms = manager.getRunningVMNames(VM_PREFIX)
+    ips = TestLib.getIps(vms)
+    ipsAndVals = { ip : [] for ip in ips }
+    TestLib.startTestCase("killall run",ipsAndVals)

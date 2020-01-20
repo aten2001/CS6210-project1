@@ -1,25 +1,23 @@
 #!/usr/bin/python
-
 from __future__ import print_function
-import libvirt
-import os
+from vm import VMManager
+from testLibrary import TestLib
 import sys
 
-CONFIG_FILE = 'vmlist.conf'
+VM_PREFIX = "aos"
 
-if __name__ == '__main__':
-
-    if len(sys.argv) != 2:
+def main(args):
+    if len(args) != 1:
         print('Usage: ./assignfiletoallvm.py [file]')
         exit(-1)
-
-    conn = libvirt.open('qemu:///system')
-    vmlist = open(CONFIG_FILE, 'r').read().strip().split()
-    iplist = []
     filename = sys.argv[1]
+    manager = VMManager()
+    vms = manager.getRunningVMNames()
+    filteredVms = [vm for vm in vms if vm.startswith(VM_PREFIX)]
+    if not filteredVms:
+        print("No VMs exist with 'aos' prefix. Exiting...")
+        exit(-1)
+    TestLib.copyFiles(filename,filteredVms)
 
-    for vmname in vmlist:
-        iplist.append(os.popen('uvt-kvm ip {}'.format(vmname)).read().strip())
-    for ip in iplist:
-        print('Copy {} to {}.'.format(filename, ip))
-        os.popen('scp -r {} ubuntu@{}:~/'.format(filename, ip))
+if __name__ == '__main__':
+    main(sys.argv[1:])

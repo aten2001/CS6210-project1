@@ -1,12 +1,8 @@
 #!/bin/sh
 
-cd testcases/1/
-make
-cd ../2/
-make
-cd ../3/
-make
-cd ../4/
-make
-cd ../5/
-make
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+for i in $(seq 5)
+do
+  cd ${SCRIPT_DIR}/testcases/${i}/
+  make
+done

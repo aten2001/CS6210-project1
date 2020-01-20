@@ -1,54 +1,49 @@
 #!/usr/bin/python
-
 from __future__ import print_function
-import libvirt
+import argparse
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from vm import VMManager
+from testLibrary import TestLib
 import sched, time
-import os
 
-CONFIG_FILE = '../vmlist.conf'
+VM_PREFIX="aos"
+def print_line(x):
+    for i in range(x):
+        print('-', end = "")
+    print("")
 
-global conn
-global vmlist
-global vmobjlist
-global s
-global memoryinfolist
+def run(sc,vmobjlist,machineParseable):
+    i = 0
+    print_line(50)
+    for vm in vmobjlist:
+        stats = vm.memoryStats()
+        if machineParseable:
+            print("memory,{},{},{}"
+                    .format(vm.name(), 
+                        stats['actual'] / 1024.0,
+                        stats['unused'] / 1024.0))
+        else:
+            print("Memory (VM: {})  Actual [{}], Unused: [{}]"
+                    .format(vm.name(), 
+                        stats['actual'] / 1024.0,
+                        stats['unused'] / 1024.0))
 
-s = sched.scheduler(time.time, time.sleep)
-
-
-def run(sc):
-    for i in range(len(vmobjlist)):
-        memoryinfolist[i] = vmobjlist[i].memoryStats()
-        print("{}: {} {}"
-            .format(vmlist[i], 
-                    memoryinfolist[i]['actual'] / 1024.0,
-                    memoryinfolist[i]['unused'] / 1024.0))
-    print('-' * 80)
-    
-    t = os.popen('virsh nodememstats').read()
-    print(t)
-    print('-' * 80)
-
-    s.enter(2, 1, run, (sc,))
+        i+=1
+    sc.enter(2, 1, run, (sc,vmobjlist,machineParseable))
 
 if __name__ == '__main__':
-    conn = libvirt.open('qemu:///system')
-    vmlist = open(CONFIG_FILE, 'r').read().strip().split()
-
-    vmobjlist = []   
-
-    for vmname in vmlist:
-        vm = conn.lookupByName(vmname)
-        if vm:
-            vmobjlist.append(vm)
-        else:
-            print('Unable to locate {}.'.format(vmnane))
-            exit(-1)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-m","--machine",action="store_true",help="outputs a machine parseable format")
+    args = parser.parse_args()
+    machineParseable = args.machine
+    s = sched.scheduler(time.time, time.sleep)
+    manager = VMManager()
+    vmlist = manager.getRunningVMNames(VM_PREFIX)
+    vmobjlist = [manager.getVmObject(name) for name in vmlist]   
     
     for vm in vmobjlist:
         vm.setMemoryStatsPeriod(1)   
  
-    memoryinfolist = [None] * len(vmobjlist)
-
-    s.enter(2, 1, run, (s,))
+    s.enter(2, 1, run, (s,vmobjlist,machineParseable,))
     s.run()

@@ -1,29 +1,18 @@
 #!/usr/bin/python
 
 from __future__ import print_function
-import libvirt
-import os
-import sys
-import subprocess
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from vm import VMManager
+from testLibrary import TestLib
 
-CONFIG_FILE = '../vmlist.conf'
+VM_PREFIX="aos"
 
 if __name__ == '__main__':
-
-    p = subprocess.Popen('cd .. && ./setallmemory.py 512', shell=True)
-    p.communicate()
-
+    manager = VMManager()
+    manager.setAllVmsMemoryWithFilter(VM_PREFIX,512)
     print('Start testcase 2')
-    conn = libvirt.open('qemu:///system')
-    vmlist = open(CONFIG_FILE, 'r').read().strip().split()
-    iplist = []
-
-    for vmname in vmlist:
-        iplist.append(os.popen('uvt-kvm ip {}'.format(vmname)).read().strip())
-
-    FNULL = open(os.devnull, 'w') 
-    
-    for i in range(len(vmlist)):
-        print('{} start running.'.format(vmlist[i]))
-        subprocess.Popen("ssh ubuntu@{} '~/testcases/2/run'".format(iplist[i]), stdout=FNULL, shell=True)
-
+    vms = manager.getRunningVMNames(VM_PREFIX)
+    ips = TestLib.getIps(vms)
+    ipsAndVals = { ip : [] for ip in ips }
+    TestLib.startTestCase("~/testcases/2/run",ipsAndVals)
