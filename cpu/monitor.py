@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from __future__ import print_function
+import argparse
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from vm import VMManager
@@ -15,7 +16,7 @@ def which_cpu(vcpuinfo):
 def which_usage(newinfo, oldinfo):
     return ( newinfo[0][0][2] - oldinfo[0][0][2]) * 1.0 / (10 ** 9)
 
-def run(sc,numpcpu,vmlist,vmobjlist,vminfolist):
+def run(sc,numpcpu,vmlist,vmobjlist,vminfolist,machineParseable):
     cpulist = {}
     for i in range(numpcpu):
         cpulist[i] = {}
@@ -31,14 +32,22 @@ def run(sc,numpcpu,vmlist,vmobjlist,vminfolist):
             cpulist[cpu]['usage'] += usage
         vminfolist[i] = newinfo
     
-    for i in range(numpcpu):
-        print('usage,{},{}'.format(i,cpulist[i]['usage'] * 100))
-        for mapping in cpulist[i]['mapping']:
-            print('mapping,{},{}'.format(i,mapping))
+    if machineParseable:
+        for i in range(numpcpu):
+            print('usage,{},{}'.format(i,cpulist[i]['usage'] * 100))
+            for mapping in cpulist[i]['mapping']:
+                print('mapping,{},{}'.format(i,mapping))
+    else:
+        for i in range(numpcpu):
+            print('{} - usage: {} | mapping {}'.format(i,cpulist[i]['usage'] * 100,cpulist[i]['mapping']))
 
-    s.enter(1, 1, run, (s,numpcpu,vmlist,vmobjlist,vminfolist,))
+    s.enter(1, 1, run, (s,numpcpu,vmlist,vmobjlist,vminfolist,machineParseable,))
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-m","--machine",action="store_true",help="outputs a machine parseable format")
+    args = parser.parse_args()
+    machineParseable = args.machine
     s = sched.scheduler(time.time, time.sleep)
     manager=VMManager()
     vmlist = manager.getRunningVMNames(VM_PREFIX)
@@ -46,5 +55,5 @@ if __name__ == '__main__':
     vminfolist = [None] * len(vmobjlist)
     numpcpu = manager.getPhysicalCpus() 
     
-    s.enter(1, 1, run, (s,numpcpu,vmlist,vmobjlist,vminfolist))
+    s.enter(1, 1, run, (s,numpcpu,vmlist,vmobjlist,vminfolist,machineParseable,))
     s.run()
