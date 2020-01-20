@@ -1,20 +1,37 @@
-### Configuration
+# CPU Scheduler
 
-1. Create 8 virtual machines.
-2. Shutdown all of them
+This directory contains files for evaluating your CPU Scheduler. There are 5 test cases in total, each of which introduces a different workload.
 
-### Run testcases
+## Prerequisites
 
-1. Run startallvm.py
-2. Run makeall.sh
-3. Run assignall.sh
-4. Run your monitor tool ( a simple monitor tool provided [monitor.py]. You are free to use other tools too).
-5. Run runtest1.py (Note: using subprocess, experiment continues after main script exits.)
-6. Run killall.py to kill the processes in each vm.
+Before starting these tests, ensure that you have created 8 virtual machines. The names of these VMs **MUST** start with *aos_* (e.g., aos_vm1 for the first VM, aos_vm2 for the second VM, etc.).
 
-### Cleanup
-1. Run shutdownallvm.py or destroyallvm.py 
-2. Run cleanall.py
+If you need to create VMs, you can do so with the command:
 
-### Repeat the same steps for other test cases( runtest2.py, runtest3.py, runtest4.py, runtest5.py, one by one.)
-### Refer README.md under testcases/<x> for more details on testcases. 
+`uvt-kvm create aos_vm1 release=xenial --memory 256`
+
+(where 'aos_vm1' is the name of the VM you wish to create)
+
+Ensure the VMs are shutdown before starting. You can do this with the script *~/Project1/shutdownallvm.py*
+
+Compile the test programs for the CPU Scheduler evaluations with the following commands:
+
+```
+$ cd ~/Project1/cpu/
+$ ./makeall.sh
+```
+ 
+## Running The Tests
+
+For each test, you will need to follow the procedure outlined below:
+
+(Assuming testcase 1 as an example)
+1. Start all of the VMs using the *~/Project1/startallvm.py* script
+2. Copy the test binaries into each VM by running the *~/Project1/cpu/assignall.sh* script
+3. Start the provided monitoring tool in a new terminal session (e.g., a separate terminal window or a tmux/screen session) by running the script *~/Project1/cpu/monitor.py*
+4. In a new terminal, start your CPU Scheduler by running the *vcpu_scheduler* binary
+5. In a new terminal, start the first test case by running the script *~/Project1/cpu/runtest1.py*. Note that this script launches the test case binaries as subprocesses, so although the script exits almost immediately the tests will still be executing on your virtual machines.
+6. Use the output from the monitoring tool to determine if your CPU Scheduler is producing the correct behavior as described under *~/Project1/cpu/testcases/1/README.md*
+7. After the test has completed, shut down your test VMs with the script *~/Project1/shutdownallvm.py*
+8. Repeat these steps for the remaining test cases, substituting the test case number as appropriate.
+
