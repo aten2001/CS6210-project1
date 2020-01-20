@@ -14,6 +14,9 @@ def main(args):
     manager = VMManager()
     vms = manager.getRunningVMNames()
     filteredVms = [vm for vm in vms if vm.startswith(VM_PREFIX)]
+    if not filteredVms:
+        print("No VMs exist with 'aos' prefix. Exiting...")
+        exit(-1)
     TestLib.copyFiles(filename,filteredVms)
 
 if __name__ == '__main__':
