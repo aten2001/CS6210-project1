@@ -12,6 +12,8 @@ If you need to create VMs, you can do so with the command:
 
 (where 'aos_vm1' is the name of the VM you wish to create)
 
+Note that if you started with the Memory Coordinator portion of this assignment you should already have 4 VMs in place and as such will need to create 4 additional VMs using the above command. Otherwise if you are starting from this portion of the assignment you will be creating 8 VMs.
+
 Ensure the VMs are shutdown before starting. You can do this with the script *~/Project1/shutdownallvm.py*
 
 Compile the test programs for the CPU Scheduler evaluations with the following commands:
