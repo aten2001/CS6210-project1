@@ -44,3 +44,16 @@ For each test, you will need to follow the procedure outlined below:
 10. Shut down your test VMs with the command *~/Project1/shutdownallvm.py*
 11. Repeat these steps for the remaining test cases, substituting the test case number as appropriate.
 
+## Understanding Monitor Output
+
+The *monitor.py* tool will output memory utilization statistics in the following format:
+
+```
+Memory (VM: aos_vm6)  Actual [256.0], Unused: [80.35546875]
+Memory (VM: aos_vm7)  Actual [256.0], Unused: [80.24609375]
+Memory (VM: aos_vm1)  Actual [256.0], Unused: [83.35546875]
+Memory (VM: aos_vm8)  Actual [256.0], Unused: [82.51171875]
+```
+
+Where "VM" is the VM for which statistics are printed, "Actual" is VM's total memory allocation in MB, and "Unused" is VM's current unused memory in MB
+
