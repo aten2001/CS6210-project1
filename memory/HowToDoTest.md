@@ -35,10 +35,12 @@ For each test, you will need to follow the procedure outlined below:
 1. Set the maximum allowed memory for VMs by running the script *~/Project1/setallmaxmemory.py*
 2. Start all of the VMs using the *~/Project1/startallvm.py* script
 3. Copy the test binaries into each VM by running the *~/Project1/memory/assignall.sh* script
-4. Start the provided monitoring tool in a new terminal session (e.g., a separate terminal window or a tmux/screen session) by running the script *~/Project1/memory/monitor.py*
+3. Open a new terminal (e.g., a separate terminal window or a tmux/screen session) and use the *script* command to capture terminal output by running command *script memory_testcase1.log*
+4. In the same terminal, start the provided monitoring tool by running the command *~/Project1/memory/monitor.py*. The *script* command from Step 3 will capture the monitoring tool output to *memory_testcase1.log* so that you can submit it with your assignment.
 5. In a new terminal, start your Memory Coordinator by running the *memory_coordinator* binary
-6. In a new terminal, start the first test case by running the script *~/Project1/memory/runtest1.py*. Note that this script launches the test case binaries as subprocesses, so although the script exits almost immediately the tests will still be executing on your virtual machines.
+6. In a new terminal, start the first test case by running the command *~/Project1/memory/runtest1.py*. Note that this command launches the test case binaries as subprocesses, so although it exits almost immediately the tests will still be executing on your virtual machines.
 7. Use the output from the monitoring tool to determine if your Memory Coordinator is producing the correct behavior as described under *~/Project1/memory/testcases/1/README.md*
-8. After the test has completed, shut down your test VMs with the script *~/Project1/shutdownallvm.py*
+8. After your test has completed, stop *monitor.py* by typing "Ctrl+C" in its terminal and then type "exit" on the command line to stop *script* from logging the console output.
+8. Shut down your test VMs with the command *~/Project1/shutdownallvm.py*
 9. Repeat these steps for the remaining test cases, substituting the test case number as appropriate.
 
