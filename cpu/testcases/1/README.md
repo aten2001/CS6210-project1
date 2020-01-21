@@ -4,4 +4,4 @@ In this test case, you will run 8 virtual machines that all start pinned to pCPU
 
 ## Expected Outcome
 
-Each pCPU will exhibit an equal balance of vCPUs given the assigned workloads (e.g., if there are 8 pCPUs and 8 vCPUs, then there would be 1 vCPU per pCPU).
+Each pCPU will exhibit an equal balance of vCPUs given the assigned workloads (e.g., if there are 4 pCPUs and 8 vCPUs, then there would be 2 vCPUs per pCPU).
