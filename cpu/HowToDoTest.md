@@ -30,10 +30,11 @@ For each test, you will need to follow the procedure outlined below:
 (Assuming testcase 1 as an example)
 1. Start all of the VMs using the *~/Project1/startallvm.py* script
 2. Copy the test binaries into each VM by running the *~/Project1/cpu/assignall.sh* script
-3. Start the provided monitoring tool in a new terminal session (e.g., a separate terminal window or a tmux/screen session) by running the script *~/Project1/cpu/monitor.py*
-4. In a new terminal, start your CPU Scheduler by running the *vcpu_scheduler* binary
-5. In a new terminal, start the first test case by running the script *~/Project1/cpu/runtest1.py*. Note that this script launches the test case binaries as subprocesses, so although the script exits almost immediately the tests will still be executing on your virtual machines.
-6. Use the output from the monitoring tool to determine if your CPU Scheduler is producing the correct behavior as described under *~/Project1/cpu/testcases/1/README.md*
-7. After the test has completed, shut down your test VMs with the script *~/Project1/shutdownallvm.py*
-8. Repeat these steps for the remaining test cases, substituting the test case number as appropriate.
+3. Open a new terminal (e.g., a separate terminal window or a tmux/screen session) and use the *script* command to capture terminal output by running command *script cpu_testcase1.log*
+4. In the same terminal, start the provided monitoring tool by running the script *~/Project1/cpu/monitor.py*. The *script* command from Step 3 will capture the monitoring tool output to *cpu_testcase1.log* so that you can submit it with your assignment.
+5. In a new terminal, start your CPU Scheduler by running the *vcpu_scheduler* binary
+6. In a new terminal, start the first test case by running the script *~/Project1/cpu/runtest1.py*. Note that this script launches the test case binaries as subprocesses, so although the script exits almost immediately the tests will still be executing on your virtual machines.
+7. Use the output from the monitoring tool to determine if your CPU Scheduler is producing the correct behavior as described under *~/Project1/cpu/testcases/1/README.md*
+8. After the test has completed, shut down your test VMs with the script *~/Project1/shutdownallvm.py*
+9. Repeat these steps for the remaining test cases, substituting the test case number as appropriate.
 
