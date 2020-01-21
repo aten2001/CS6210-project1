@@ -1,6 +1,6 @@
 ### The first stage
 
-1. The first virtual machine consumes memory gradully, while others stay inactive.
+1. The first virtual machine consumes memory gradually, while others stay inactive.
 2. All virtual machines start from 512MB.
 3. __Expected outcome__: The first virtual machine gains more and more memory, and others give out some. 
 
