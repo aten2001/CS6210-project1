@@ -39,3 +39,28 @@ For each test, you will need to follow the procedure outlined below:
 9. Shut down your test VMs with the script *~/Project1/shutdownallvm.py*
 10. Repeat these steps for the remaining test cases, substituting the test case number as appropriate.
 
+## Understanding Monitor Output
+
+The *monitor.py* tool will output CPU utilization and mapping statistics in the following format:
+
+```
+0 - usage: 24.0 | mapping ['aos_vm3']
+1 - usage: 23.0 | mapping ['aos_vm4']
+2 - usage: 23.0 | mapping ['aos_vm8']
+3 - usage: 23.0 | mapping ['aos_vm1']
+4 - usage: 23.0 | mapping ['aos_vm7']
+5 - usage: 24.0 | mapping ['aos_vm6']
+6 - usage: 23.0 | mapping ['aos_vm5']
+7 - usage: 24.0 | mapping ['aos_vm2']
+```
+
+Where each line is of the form:
+
+`<pCPU #> - usage: <pCPU % utilization> | mapping <VMs mapped to this pCPU>`
+
+The first field indicates the pCPU number.
+
+The second field indicates the % utilization of the given pCPU.
+
+The third field indicates a given pCPU's mapping to different virtual machines (vCPUs).
+
