@@ -65,7 +65,10 @@ The second field indicates the % utilization of the given pCPU.
 The third field indicates a given pCPU's mapping to different virtual machines (vCPUs).
 
 ## Important
-Your algorithm should work independent of the number of vcpus and pcpus.
-The above scenario in the monitor output displays 8 vcpus balanced on 8 pcpus.
+Your algorithm should work independent of the number of vcpus and pcpus. The above scenario in the monitor output displays 8 vcpus balanced on 8 pcpus.
+
 Configurations where no. of vcpus > no. of pcpus OR no. of vcpus < no. of pcpus should also be appropriately handled.
+
 Note that you may not need to specifically handle these cases as a generic algorithm that looks to stabilize processor use would apply equally to all cases.
+
+The expectation of the tescases provided operate under the assumption of 8 vcpus and 4 pcpus. But they can be extended to a different count of pcpus. For e.g for an 8 core system (8 pcpus), you should be able to evaulate your algorithm for a setup of 16 VMs (16 vcpus) with similar expectation.
