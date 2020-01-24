@@ -18,9 +18,9 @@ if __name__ == '__main__':
     for ip in ips:
         if i%2 == 0: 
             # Process running at 100%
-            ipsAndVals[ip]=[250000]
+            ipsAndVals[ip]=250000
         else:
             # Process running at 50%
-            ipsAndVals[ip]=[30000]
+            ipsAndVals[ip]=30000
         i+=1
     TestLib.startTestCase("~/cpu/testcases/5/iambusy {}",ipsAndVals)
