@@ -58,7 +58,6 @@ def run_dynamic(sc, manager, vminfoDict, machineParseable):
 
     #handle vm addition/deletion
     if len(vmlist) < len(vminfoDict):
-        print('hi')
         all_keys = vminfoDict.keys()
         del_keys = list(set(all_keys) - set(vmlist))
         for key in del_keys:
