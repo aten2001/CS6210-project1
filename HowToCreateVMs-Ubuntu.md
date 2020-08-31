@@ -19,7 +19,7 @@ The most convenient way to create test VMs for this project is via Ubuntu's `uvt
     ```
 5. Create a new virtual machine (**Note: Your project VM names *MUST* start with *aos_***)
     ``` shell
-    uvt-kvm create aos_vm1 release=xenial
+    uvt-kvm create aos_vm1 release=bionic
     ```
 6. (Optional) Connect to the running VM
     ``` shell
