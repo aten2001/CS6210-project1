@@ -9,9 +9,9 @@ The most convenient way to create test VMs for this project is via Ubuntu's `uvt
     ``` shell
     sudo apt -y install uvtool
     ```
-3. Synchronize the _xenial_ Ubuntu image to your environment.
+3. Synchronize the _bionic_ Ubuntu image to your environment.
     ``` shell
-    uvt-simplestreams-libvirt sync release=xenial arch=amd64
+    uvt-simplestreams-libvirt sync release=bionic arch=amd64
     ```
 4. Create an SSH key for use in accessing the new VMs.
     ``` shell
