@@ -14,7 +14,7 @@ If you need to delete VMs, you can do so with the command:
 
 If you need to create VMs, you can do so with the command:
 
-`uvt-kvm create aos_vm1 release=xenial --memory 512`
+`uvt-kvm create aos_vm1 release=bionic --memory 512`
 
 (where 'aos_vm1' is the name of the VM you wish to create)
 
