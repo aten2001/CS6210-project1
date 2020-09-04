@@ -37,7 +37,7 @@ class VMManager:
             try:
                 vm.create()
             except libvirt.libvirtError:
-                print("Issues starting vm [{}], most likely it was already running".format(vmName))
+                print("Issues starting vm [{}], most likely it was already running".format(name))
         else:
             print("Error happened starting vm [{}]".format(name))
 
