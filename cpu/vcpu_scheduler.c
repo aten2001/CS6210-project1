@@ -1,51 +1,94 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <time.h>
 #include <libvirt/libvirt.h>
 
 void connectToVM(){
     virConnectPtr conn = virConnectOpen("qemu:///system");
 
     if (conn == NULL) {
-    printf("Failed to open connection to qemu:///system \n");
+        printf("Failed to open connection to qemu:///system \n");
         return;
     } 
 
-    // printf("%s \n", virConnectGetSysinfo(conn,0));
-
-    //Get all active running virautl machines    //virConnectList*
-    
-    virDomainPtr *domains;
-    int ret;
+    //Get all active running Virtual Machines    
+     virDomainPtr *domains;
+    int numberOfVCPUS;
     size_t i;
     unsigned int flags = VIR_CONNECT_LIST_DOMAINS_RUNNING | VIR_CONNECT_LIST_DOMAINS_PERSISTENT;
-    ret = virConnectListAllDomains(conn, &domains, flags);
-    printf("\nNumber of domains returned:  %d\n", ret);
-    if(ret<0){
+    numberOfVCPUS = virConnectListAllDomains(conn, &domains, flags);
+    printf("\nNumber of domains returned:  %d\n", numberOfVCPUS);
+    if(numberOfVCPUS<0){
         printf("Failed to get all domains\n");
         return;
     }
 
-    int vcpuTimeArray[8];
+    // Get VCPU STATS
+    long long int vcpuStartTimeArray[numberOfVCPUS];
+    float vcpuTimeDiffArray[numberOfVCPUS];
     int vcpuTotalTime;
-    for (i = 0; i < ret; i++) {
+    time_t time1;
+    time(&time1);
+    for (i = 0; i < numberOfVCPUS; i++) {
         virDomainInfo virDomainInfo;
         virDomainGetInfo(domains[i], &virDomainInfo);
-        printf("\nDomain state: %d\n", virDomainInfo.state);
-        printf("Domain maxMem: %ld\n", virDomainInfo.maxMem);
-        printf("Domain memory: %ld\n", virDomainInfo.memory);
-        printf("Domain nrVirtCpu: %d\n", virDomainInfo.nrVirtCpu);
-        printf("Domain cpuTime: %lld\n", virDomainInfo.cpuTime);
-
-        vcpuTimeArray[i] = virDomainInfo.cpuTime/1000000;
-        vcpuTotalTime = vcpuTotalTime + virDomainInfo.cpuTime/1000000;
+        vcpuStartTimeArray[i] = virDomainInfo.cpuTime;
     }
 
-    float vcpuUsagePercent[8];
-    for (i = 0; i< ret; i++){
-        vcpuUsagePercent[i] = (float) vcpuTimeArray[i]/vcpuTotalTime;
-        printf("VCPU percentage for vcpu%li is %f\n%%", i, vcpuUsagePercent[i]);
+    sleep(5);
+    
+    time_t time2;
+    time(&time2);
+    for (i = 0; i < numberOfVCPUS; i++) {
+        virDomainInfo virDomainInfo2;
+        virDomainGetInfo(domains[i], &virDomainInfo2);
+        vcpuTimeDiffArray[i] = (float)(virDomainInfo2.cpuTime - vcpuStartTimeArray[i])/1000000000;
     }
 
+
+
+    float vcpuUsagePercent[numberOfVCPUS];
+    for (i = 0; i< numberOfVCPUS; i++){
+        if(vcpuTimeDiffArray[i] != 0){
+            vcpuUsagePercent[i] = (float) vcpuTimeDiffArray[i]/difftime(time2, time1);
+            printf("VCpu Usage Percentage:  %f\n", vcpuUsagePercent[i]);
+        }else{
+            vcpuUsagePercent[i] = 0;
+        }
+    }
+
+    //Get PCPU STATS
+    // // Number of PCPUs
+    // int numberofPCPUs;
+    // unsigned char * cpumap;
+    // numberofPCPUs = virNodeGetCPUMap(conn, &cpumap, NULL, 0);
+    // printf("Number of PCPUs available: %i\n", numberofPCPUs);
+
+    // // PCU Usage Percentage
+
+    // virNodeCPUStats virNodeCPUStatsPtr[4];
+    // // virNodeCPUStats * virNodeCPUStatsPtr;
+    // int nparams = 4;
+    // int cpuNum = 0;
+
+    // for(cpuNum = 0; cpuNum < numberofPCPUs; cpuNum++){
+    //     // virNodeCPUStatsPtr = malloc(sizeof(virNodeCPUStats) * nparams);
+    //     virNodeGetCPUStats(conn, cpuNum, virNodeCPUStatsPtr, &nparams, 0);
+
+    //     printf("%s CPU time for %i:  %lli\n", virNodeCPUStatsPtr[0].field, cpuNum, virNodeCPUStatsPtr[0].value);
+    // }
+
+
+
+    // if (virNodeGetCPUStats(conn, cpuNum, NULL, &nparams, 0) == 0 &&
+    //     nparams != 0) {
+    //     if ((virNodeCPUStatsPtr = malloc(sizeof(virNodeCPUStats) * nparams)) == NULL)
+    //         printf("Unable to allocte memory to the virNodeCPUStats Ptr\n");
+    //     memset(virNodeCPUStatsPtr, 0, sizeof(virNodeCPUStats) * nparams);
+    //     if (virNodeGetCPUStats(conn, cpuNum, virNodeCPUStatsPtr, &nparams, 0))
+    //         printf("Unable to get virNodeGetCPUStats\n");
+    // }30270230000000
 
 
     // for (i = 0; i < ret; i++) {
@@ -71,7 +114,7 @@ void connectToVM(){
     //     // int	virDomainPinVcpu(virDomainPtr domain, unsigned int vcpu, unsigned char * cpumap, int maplen)
     // }
 
-    for (i = 0; i < ret; i++) {
+    for (i = 0; i < numberOfVCPUS; i++) {
         virDomainFree(domains[i]);
     }
     free(domains);
