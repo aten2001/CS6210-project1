@@ -1,8 +1,50 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include <string.h>
 #include <time.h>
+#include <unistd.h> //sleep
 #include <libvirt/libvirt.h>
+
+float stdevOverMean(float data[], int array_size) {
+    float sum = 0.0, mean, SD = 0.0;
+    int i;
+    for (i = 0; i < array_size; ++i) {
+        sum += data[i];
+    }
+    mean = sum / array_size;
+    for (i = 0; i < array_size; ++i)
+        SD += pow(data[i] - mean, 2);
+    SD = SD/array_size;
+    SD = sqrt(SD);
+    printf("\tSTANDARD DEVIATION:  %f\n", SD);
+    printf("\tMEAN:  %f\n", mean);
+
+    return SD/mean;
+}
+
+float averagePcpuUsage(float data[], int numberofVCPUs, int numberOfPCPUS){
+    float sum = 0.0, mean;
+    int i;
+    for (i = 0; i < numberofVCPUs; ++i) {
+        sum += data[i];
+    }
+    mean = sum / numberOfPCPUS;
+    return mean;
+}
+
+int findLowest(float data[], int array_size){
+    float currentLowest = data[0];
+    int currentLowestIndex = 0;
+    int i;
+    for (i=0; i<array_size; i++){
+        if(data[i] < currentLowest){
+            currentLowest = data[i];
+            currentLowestIndex = i;
+        }
+    }    
+    return currentLowestIndex;
+}
 
 void connectToVM(){
     virConnectPtr conn = virConnectOpen("qemu:///system");
@@ -12,44 +54,43 @@ void connectToVM(){
         return;
     } 
 
-    //Get all active running Virtual Machines    
+// GET VM DOMAINS  
      virDomainPtr *domains;
     int numberOfVCPUS;
     size_t i;
     unsigned int flags = VIR_CONNECT_LIST_DOMAINS_RUNNING | VIR_CONNECT_LIST_DOMAINS_PERSISTENT;
     numberOfVCPUS = virConnectListAllDomains(conn, &domains, flags);
-    printf("\nNumber of domains returned:  %d\n", numberOfVCPUS);
+    printf("\nNumber of domains (1 vcpu/domain) available:  %d\n", numberOfVCPUS);
     if(numberOfVCPUS<0){
         printf("Failed to get all domains\n");
         return;
     }
 
-    // Get VCPU STATS
+// Get VCPU STATS
+    // Find VCPU Usage Percentage
     long long int vcpuStartTimeArray[numberOfVCPUS];
     float vcpuTimeDiffArray[numberOfVCPUS];
     int vcpuTotalTime;
     time_t time1;
     time(&time1);
     for (i = 0; i < numberOfVCPUS; i++) {
-        virDomainInfo virDomainInfo;
-        virDomainGetInfo(domains[i], &virDomainInfo);
-        vcpuStartTimeArray[i] = virDomainInfo.cpuTime;
+        virVcpuInfo virVcpuInfo;
+        virDomainGetVcpus(domains[i], &virVcpuInfo, 1, NULL, 0);
+        vcpuStartTimeArray[i] = virVcpuInfo.cpuTime;
     }
-
-    sleep(5);
     
+    sleep(3);
+
     time_t time2;
     time(&time2);
     for (i = 0; i < numberOfVCPUS; i++) {
-        virDomainInfo virDomainInfo2;
-        virDomainGetInfo(domains[i], &virDomainInfo2);
-        vcpuTimeDiffArray[i] = (float)(virDomainInfo2.cpuTime - vcpuStartTimeArray[i])/1000000000;
+        virVcpuInfo virVcpuInfo2;
+        virDomainGetVcpus(domains[i], &virVcpuInfo2, 1, NULL, 0);
+        vcpuTimeDiffArray[i] = (float)(virVcpuInfo2.cpuTime - vcpuStartTimeArray[i])/1000000000;
     }
 
-
-
     float vcpuUsagePercent[numberOfVCPUS];
-    for (i = 0; i< numberOfVCPUS; i++){
+    for (i = 0; i < numberOfVCPUS; i++){
         if(vcpuTimeDiffArray[i] != 0){
             vcpuUsagePercent[i] = (float) vcpuTimeDiffArray[i]/difftime(time2, time1);
             printf("VCpu Usage Percentage:  %f\n", vcpuUsagePercent[i]);
@@ -58,62 +99,109 @@ void connectToVM(){
         }
     }
 
-    //Get PCPU STATS
-    // // Number of PCPUs
-    // int numberofPCPUs;
-    // unsigned char * cpumap;
-    // numberofPCPUs = virNodeGetCPUMap(conn, &cpumap, NULL, 0);
-    // printf("Number of PCPUs available: %i\n", numberofPCPUs);
+//GET PCPU STATS
+    // Number of PCPUs
+    int numberOfPCPUS;
+    unsigned char * cpumap;
+    numberOfPCPUS = virNodeGetCPUMap(conn, &cpumap, NULL, 0);
+    printf("\nNumber of PCPUs available: %i\n", numberOfPCPUS);
 
-    // // PCU Usage Percentage
+    //PCPU Usage Percentage
+    float pcpuUsagePercentage[numberOfPCPUS];
+    for (i=0; i<numberOfPCPUS; i++) pcpuUsagePercentage[i] = 0;
+    
+    for (i = 0; i < numberOfVCPUS; i++) {
+        int ncpumaps = 1;  //matches number of vcpus in domain
+        int maplen = VIR_CPU_MAPLEN(numberOfPCPUS); 
+        unsigned char * cpumaps = calloc(ncpumaps, maplen);
+        int vcpuPinInfo_ret;
 
-    // virNodeCPUStats virNodeCPUStatsPtr[4];
-    // // virNodeCPUStats * virNodeCPUStatsPtr;
-    // int nparams = 4;
-    // int cpuNum = 0;
+        vcpuPinInfo_ret = virDomainGetVcpuPinInfo(domains[i], ncpumaps, cpumaps, maplen, VIR_DOMAIN_AFFECT_CURRENT);
+        if(vcpuPinInfo_ret<0){
+            printf("Failed to get Vcpu Pin info\n");
+            return;
+        }
 
-    // for(cpuNum = 0; cpuNum < numberofPCPUs; cpuNum++){
-    //     // virNodeCPUStatsPtr = malloc(sizeof(virNodeCPUStats) * nparams);
-    //     virNodeGetCPUStats(conn, cpuNum, virNodeCPUStatsPtr, &nparams, 0);
+        int j=0;
+        for(j=0; j<numberOfPCPUS; j++){
+            if(VIR_CPU_USED(cpumaps, j)){
+                pcpuUsagePercentage[j] = pcpuUsagePercentage[j] + vcpuUsagePercent[i];
+            }
+        }
 
-    //     printf("%s CPU time for %i:  %lli\n", virNodeCPUStatsPtr[0].field, cpuNum, virNodeCPUStatsPtr[0].value);
-    // }
+        free(cpumaps);
+    }
+
+    for (i=0; i<numberOfPCPUS; i++){
+        printf("Pcpu %li Usage Percentage:  %f\n", i, pcpuUsagePercentage[i]);
+    }
+
+    // PCPU Balance Stats
+    float stdevOverMean_pcpuUsagePercentage = stdevOverMean(pcpuUsagePercentage, numberOfPCPUS);
+    printf("Standard Deviation over mean for pcpu Usage:  %f\n", stdevOverMean_pcpuUsagePercentage);
+
+// REPIN CPU LOGIC
+    printf("Logic started\n");
+    int pinAllocationArray[numberOfVCPUS];
+    for (i = 0; i< numberOfVCPUS; i++){
+        pinAllocationArray[i] = -1;
+    }
+
+    if(stdevOverMean_pcpuUsagePercentage > 1){
+        if(numberOfVCPUS <= numberOfPCPUS){
+            // 1:1 mapping if numberOfVCPUS <= numberOfPCPUS
+            for(i = 0; i < numberOfVCPUS; i++){
+                pinAllocationArray[i] = i;
+            }
+        }else{
+            float pcpuProjectedPercentage[numberOfPCPUS];
+            float idealpcpuPercentage = averagePcpuUsage(vcpuUsagePercent, numberOfVCPUS, numberOfPCPUS);
+
+            for(i=0; i<numberOfVCPUS; i++){
+                if(pinAllocationArray[i] == 0){
+                    int j;
+                    for(j=0; j<numberOfPCPUS;j++){
+                        if(pcpuProjectedPercentage[j] + vcpuUsagePercent[i] < idealpcpuPercentage){
+                            pinAllocationArray[i] = j;
+                            break;
+                        }
+                    }		
+                }
+            }
+
+            for(i = 0; i<numberOfVCPUS; i++){
+                if(pinAllocationArray[i] == -1){
+                    int j = findLowest(pcpuProjectedPercentage, numberOfPCPUS);
+                    pinAllocationArray[i] = j;
+                }
+            }
+        }
+    }
+
+    printf("Logic completed\n");
 
 
+// IMPLEMENT PINS
+    for(i = 0; i < numberOfVCPUS; i++){
+        printf("Implementing Pins for VCPU: %li\n", i);
+        int ncpumaps = 1;
+        int maplen = VIR_CPU_MAPLEN(numberOfPCPUS); 
+        unsigned char * cpumaps = calloc(ncpumaps, maplen);
+        int j;
+        for(j = 0; j < numberOfPCPUS; j++){
+            if(j == pinAllocationArray[i]){
+                VIR_USE_CPU(cpumaps, j);
+                printf("\tChecking if PCPU %i is set to USE\n", j);
+            }
+        }
+        int vcpu_pin_ret;
+        vcpu_pin_ret = virDomainPinVcpu(domains[i], 0, cpumaps, maplen);
+        if(vcpu_pin_ret < 0){
+            printf("Error when printing VCPU to CPU\n");
+        }
+    }
 
-    // if (virNodeGetCPUStats(conn, cpuNum, NULL, &nparams, 0) == 0 &&
-    //     nparams != 0) {
-    //     if ((virNodeCPUStatsPtr = malloc(sizeof(virNodeCPUStats) * nparams)) == NULL)
-    //         printf("Unable to allocte memory to the virNodeCPUStats Ptr\n");
-    //     memset(virNodeCPUStatsPtr, 0, sizeof(virNodeCPUStats) * nparams);
-    //     if (virNodeGetCPUStats(conn, cpuNum, virNodeCPUStatsPtr, &nparams, 0))
-    //         printf("Unable to get virNodeGetCPUStats\n");
-    // }30270230000000
-
-
-    // for (i = 0; i < ret; i++) {
-    //     int ncpumaps = 1;
-    //     int maplen = 3;
-    //     unsigned char * cpumaps = calloc(ncpumaps, maplen);
-    //     int vcpuPinInfo_ret;
-    //     vcpuPinInfo_ret = virDomainGetVcpuPinInfo(domains[i], ncpumaps, cpumaps, maplen, VIR_DOMAIN_AFFECT_CURRENT);
-    //     if(vcpuPinInfo_ret<0){
-    //         printf("Failed to get Vcpu Pin info\n");
-    //         return;
-    //     }
-
-    //     int j;
-    //     printf("Number of virtual cpus %d\n", vcpuPinInfo_ret);
-    //     for ( j=0; j < maplen ; j++){
-    //             printf("\tValue of bit %i is %u\n", j, cpumaps[1]);
-    //     }
-    //     free(cpumaps);
-
-
-
-    //     // int	virDomainPinVcpu(virDomainPtr domain, unsigned int vcpu, unsigned char * cpumap, int maplen)
-    // }
-
+// CLEAN UP
     for (i = 0; i < numberOfVCPUS; i++) {
         virDomainFree(domains[i]);
     }
@@ -136,12 +224,45 @@ void connectToVM(){
     return;
 }
 
+void testEverything(){
+    printf("/**************TESTING**************/\n\n");
+    float testData1[] = {8, 7, 9, 1, 24, 25};
+    float testData2[] = {8, 7, 9, 1, 24, 25};
+    float testData3[] = {8, 7, 9, 1, 24, 25};
+    float testData4[] = {8, 7, 9, 1, 24, 25};
+    float testData5[] = {8, 7, 9, 1, 24, 25};
+
+
+    //Size Test
+    size_t array_size = sizeof(testData)/sizeof(testData[0]);
+
+    printf("Array Size:  %ld\n", array_size);
+
+
+    //meanTest
+    printf("Ideal CPU Usage:  %f\n", averagePcpuUsage(testData, array_size, 12));
+
+
+    //stdevTest
+    printf("StandardDev/Mean:  %f\n", stdevOverMean(testData, array_size));
+    
+    //findLowestTest
+    printf("Lowest Index:  %i\n", findLowest(testData, array_size));
+    printf("\n\n/********TESTING COMPLETE********/\n\n");
+
+
+}
+
+
+
 int main(int argc, char **argv){
     char *callName = argv[0];
     char *time = argv[1];
 
+    testEverything();
+
     printf("Kicking off %s with time value %s\n", callName, time);
     
-    connectToVM();
+    // connectToVM();
     return 0;
 }
