@@ -265,7 +265,7 @@ int main(int argc, char **argv){
     printf("Kicking off %s every %d seconds\n", callName, time);
     while(1){
         connectToVM();
-        sleep(time);
+        sleep(time - 3);
     }
     return 0;
 }
