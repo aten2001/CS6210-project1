@@ -1,0 +1,3631 @@
+Script started on 2020-09-20 11:15:40-0400
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[00m$ ./monitor.py 
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [212.01171875]
+Memory (VM: aos_vm3)  Actual [512.0], Unused: [212.90625]
+Memory (VM: aos_vm1)  Actual [512.0], Unused: [213.26171875]
+Memory (VM: aos_vm4)  Actual [512.0], Unused: [212.65625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [211.890625]
+Memory (VM: aos_vm3)  Actual [512.0], Unused: [212.90625]
+Memory (VM: aos_vm1)  Actual [512.0], Unused: [213.26171875]
+Memory (VM: aos_vm4)  Actual [512.0], Unused: [212.65625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [211.890625]
+Memory (VM: aos_vm3)  Actual [512.0], Unused: [212.90625]
+Memory (VM: aos_vm1)  Actual [512.0], Unused: [213.26171875]
+Memory (VM: aos_vm4)  Actual [512.0], Unused: [212.65625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [211.890625]
+Memory (VM: aos_vm3)  Actual [460.80078125], Unused: [161.8046875]
+Memory (VM: aos_vm1)  Actual [460.80078125], Unused: [162.19140625]
+Memory (VM: aos_vm4)  Actual [460.80078125], Unused: [161.67578125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [211.921875]
+Memory (VM: aos_vm3)  Actual [460.80078125], Unused: [161.8046875]
+Memory (VM: aos_vm1)  Actual [460.80078125], Unused: [162.19140625]
+Memory (VM: aos_vm4)  Actual [460.80078125], Unused: [161.67578125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [212.04296875]
+Memory (VM: aos_vm3)  Actual [512.0], Unused: [212.81640625]
+Memory (VM: aos_vm1)  Actual [512.0], Unused: [213.29296875]
+Memory (VM: aos_vm4)  Actual [512.0], Unused: [212.6875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [200.37890625]
+Memory (VM: aos_vm3)  Actual [512.0], Unused: [202.75390625]
+Memory (VM: aos_vm1)  Actual [512.0], Unused: [203.3046875]
+Memory (VM: aos_vm4)  Actual [512.0], Unused: [202.03125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [189.23828125]
+Memory (VM: aos_vm3)  Actual [512.0], Unused: [191.4921875]
+Memory (VM: aos_vm1)  Actual [512.0], Unused: [192.04296875]
+Memory (VM: aos_vm4)  Actual [512.0], Unused: [190.76953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [178.09765625]
+Memory (VM: aos_vm3)  Actual [512.0], Unused: [180.47265625]
+Memory (VM: aos_vm1)  Actual [512.0], Unused: [181.0234375]
+Memory (VM: aos_vm4)  Actual [512.0], Unused: [179.75]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [167.078125]
+Memory (VM: aos_vm3)  Actual [512.0], Unused: [169.453125]
+Memory (VM: aos_vm1)  Actual [512.0], Unused: [170.00390625]
+Memory (VM: aos_vm4)  Actual [512.0], Unused: [168.8515625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [512.0], Unused: [155.81640625]
+Memory (VM: aos_vm3)  Actual [512.0], Unused: [158.19140625]
+Memory (VM: aos_vm1)  Actual [512.0], Unused: [158.7421875]
+Memory (VM: aos_vm4)  Actual [512.0], Unused: [157.7109375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [614.40234375], Unused: [247.60546875]
+Memory (VM: aos_vm3)  Actual [614.40234375], Unused: [249.98046875]
+Memory (VM: aos_vm1)  Actual [614.40234375], Unused: [250.2890625]
+Memory (VM: aos_vm4)  Actual [614.40234375], Unused: [249.2578125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [614.40234375], Unused: [236.34375]
+Memory (VM: aos_vm3)  Actual [614.40234375], Unused: [238.59765625]
+Memory (VM: aos_vm1)  Actual [614.40234375], Unused: [239.02734375]
+Memory (VM: aos_vm4)  Actual [614.40234375], Unused: [237.875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [614.40234375], Unused: [225.08203125]
+Memory (VM: aos_vm3)  Actual [614.40234375], Unused: [227.3359375]
+Memory (VM: aos_vm1)  Actual [614.40234375], Unused: [227.765625]
+Memory (VM: aos_vm4)  Actual [614.40234375], Unused: [226.734375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [614.40234375], Unused: [213.8203125]
+Memory (VM: aos_vm3)  Actual [614.40234375], Unused: [216.1953125]
+Memory (VM: aos_vm1)  Actual [614.40234375], Unused: [216.50390625]
+Memory (VM: aos_vm4)  Actual [614.40234375], Unused: [215.59375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [614.40234375], Unused: [202.6796875]
+Memory (VM: aos_vm3)  Actual [614.40234375], Unused: [205.0546875]
+Memory (VM: aos_vm1)  Actual [614.40234375], Unused: [205.36328125]
+Memory (VM: aos_vm4)  Actual [614.40234375], Unused: [204.453125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [614.40234375], Unused: [191.5390625]
+Memory (VM: aos_vm3)  Actual [614.40234375], Unused: [193.9140625]
+Memory (VM: aos_vm1)  Actual [614.40234375], Unused: [194.22265625]
+Memory (VM: aos_vm4)  Actual [614.40234375], Unused: [193.3125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [614.40234375], Unused: [180.06640625]
+Memory (VM: aos_vm3)  Actual [614.40234375], Unused: [182.44140625]
+Memory (VM: aos_vm1)  Actual [614.40234375], Unused: [182.71875]
+Memory (VM: aos_vm4)  Actual [614.40234375], Unused: [181.83984375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [614.40234375], Unused: [168.92578125]
+Memory (VM: aos_vm3)  Actual [614.40234375], Unused: [171.30078125]
+Memory (VM: aos_vm1)  Actual [614.40234375], Unused: [171.609375]
+Memory (VM: aos_vm4)  Actual [614.40234375], Unused: [170.578125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [737.28515625], Unused: [281.05859375]
+Memory (VM: aos_vm3)  Actual [737.28515625], Unused: [283.43359375]
+Memory (VM: aos_vm1)  Actual [737.28515625], Unused: [283.62109375]
+Memory (VM: aos_vm4)  Actual [737.28515625], Unused: [282.58984375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [737.28515625], Unused: [269.796875]
+Memory (VM: aos_vm3)  Actual [737.28515625], Unused: [272.171875]
+Memory (VM: aos_vm1)  Actual [737.28515625], Unused: [272.359375]
+Memory (VM: aos_vm4)  Actual [737.28515625], Unused: [271.5703125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [737.28515625], Unused: [258.4140625]
+Memory (VM: aos_vm3)  Actual [737.28515625], Unused: [260.84375]
+Memory (VM: aos_vm1)  Actual [737.28515625], Unused: [261.09765625]
+Memory (VM: aos_vm4)  Actual [737.28515625], Unused: [260.4296875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [737.28515625], Unused: [247.2734375]
+Memory (VM: aos_vm3)  Actual [737.28515625], Unused: [249.58203125]
+Memory (VM: aos_vm1)  Actual [737.28515625], Unused: [249.6484375]
+Memory (VM: aos_vm4)  Actual [737.28515625], Unused: [249.2890625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [737.28515625], Unused: [236.1328125]
+Memory (VM: aos_vm3)  Actual [737.28515625], Unused: [238.44140625]
+Memory (VM: aos_vm1)  Actual [737.28515625], Unused: [238.5078125]
+Memory (VM: aos_vm4)  Actual [737.28515625], Unused: [238.1484375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [737.28515625], Unused: [224.87109375]
+Memory (VM: aos_vm3)  Actual [737.28515625], Unused: [227.421875]
+Memory (VM: aos_vm1)  Actual [737.28515625], Unused: [227.24609375]
+Memory (VM: aos_vm4)  Actual [737.28515625], Unused: [227.12890625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [361.22265625]
+Memory (VM: aos_vm3)  Actual [737.28515625], Unused: [216.16015625]
+Memory (VM: aos_vm1)  Actual [737.28515625], Unused: [215.984375]
+Memory (VM: aos_vm4)  Actual [737.28515625], Unused: [215.8671875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [350.203125]
+Memory (VM: aos_vm3)  Actual [737.28515625], Unused: [204.8984375]
+Memory (VM: aos_vm1)  Actual [737.28515625], Unused: [204.6015625]
+Memory (VM: aos_vm4)  Actual [737.28515625], Unused: [204.7265625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [339.0625]
+Memory (VM: aos_vm3)  Actual [884.7421875], Unused: [341.25]
+Memory (VM: aos_vm1)  Actual [884.7421875], Unused: [341.07421875]
+Memory (VM: aos_vm4)  Actual [884.7421875], Unused: [341.078125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [327.921875]
+Memory (VM: aos_vm3)  Actual [884.7421875], Unused: [330.109375]
+Memory (VM: aos_vm1)  Actual [884.7421875], Unused: [329.93359375]
+Memory (VM: aos_vm4)  Actual [884.7421875], Unused: [329.9375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [316.41796875]
+Memory (VM: aos_vm3)  Actual [884.7421875], Unused: [318.484375]
+Memory (VM: aos_vm1)  Actual [884.7421875], Unused: [318.4296875]
+Memory (VM: aos_vm4)  Actual [884.7421875], Unused: [318.43359375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [305.3984375]
+Memory (VM: aos_vm3)  Actual [884.7421875], Unused: [307.46484375]
+Memory (VM: aos_vm1)  Actual [884.7421875], Unused: [307.2890625]
+Memory (VM: aos_vm4)  Actual [884.7421875], Unused: [307.29296875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [294.13671875]
+Memory (VM: aos_vm3)  Actual [884.7421875], Unused: [296.32421875]
+Memory (VM: aos_vm1)  Actual [884.7421875], Unused: [296.02734375]
+Memory (VM: aos_vm4)  Actual [884.7421875], Unused: [296.03125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [283.1171875]
+Memory (VM: aos_vm3)  Actual [884.7421875], Unused: [285.18359375]
+Memory (VM: aos_vm1)  Actual [884.7421875], Unused: [285.0078125]
+Memory (VM: aos_vm4)  Actual [884.7421875], Unused: [285.01171875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [271.9765625]
+Memory (VM: aos_vm3)  Actual [884.7421875], Unused: [274.07421875]
+Memory (VM: aos_vm1)  Actual [884.7421875], Unused: [273.98828125]
+Memory (VM: aos_vm4)  Actual [884.7421875], Unused: [273.75]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [884.7421875], Unused: [260.8671875]
+Memory (VM: aos_vm3)  Actual [884.7421875], Unused: [262.8125]
+Memory (VM: aos_vm1)  Actual [884.7421875], Unused: [262.87890625]
+Memory (VM: aos_vm4)  Actual [884.7421875], Unused: [262.640625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [427.21875]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [429.07421875]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [429.3828125]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [429.0234375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [415.98828125]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [417.8125]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [418.12109375]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [417.8828125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [404.96875]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [406.79296875]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [406.98046875]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [406.7421875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [393.09765625]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [394.671875]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [395.22265625]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [394.87109375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [382.078125]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [383.7734375]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [384.203125]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [383.609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [371.05859375]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [372.6328125]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [373.0625]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [372.5234375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [360.0390625]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [361.4921875]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [361.80078125]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [361.3828125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [348.8984375]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [350.47265625]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [350.66015625]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [350.12109375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [337.87890625]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [339.33203125]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [339.640625]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [338.98046875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [326.49609375]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [328.19140625]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [328.37890625]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [327.71875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [315.35546875]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [316.9296875]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [317.1171875]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [316.45703125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1061.69140625], Unused: [304.09375]
+Memory (VM: aos_vm3)  Actual [1061.69140625], Unused: [305.91015625]
+Memory (VM: aos_vm1)  Actual [1061.69140625], Unused: [305.9765625]
+Memory (VM: aos_vm4)  Actual [1061.69140625], Unused: [305.31640625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1274.03125], Unused: [499.93359375]
+Memory (VM: aos_vm3)  Actual [1274.03125], Unused: [501.9921875]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [501.6953125]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [501.640625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1274.03125], Unused: [488.671875]
+Memory (VM: aos_vm3)  Actual [1274.03125], Unused: [490.73046875]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [490.5546875]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [490.5]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1274.03125], Unused: [477.53125]
+Memory (VM: aos_vm3)  Actual [1274.03125], Unused: [479.58984375]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [479.4140625]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [479.359375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1274.03125], Unused: [466.51171875]
+Memory (VM: aos_vm3)  Actual [1274.03125], Unused: [468.5703125]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [468.2734375]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [468.21875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1274.03125], Unused: [973.50390625]
+Memory (VM: aos_vm3)  Actual [1274.03125], Unused: [975.41796875]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [456.28515625]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [456.47265625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1274.03125], Unused: [973.50390625]
+Memory (VM: aos_vm3)  Actual [1274.03125], Unused: [975.41796875]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [445.14453125]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [445.33203125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1146.62890625], Unused: [846.35546875]
+Memory (VM: aos_vm3)  Actual [1146.62890625], Unused: [848.26953125]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [433.8828125]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [434.0703125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1146.62890625], Unused: [846.35546875]
+Memory (VM: aos_vm3)  Actual [1146.62890625], Unused: [848.23828125]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [422.62109375]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [422.80859375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1031.96875], Unused: [731.6796875]
+Memory (VM: aos_vm3)  Actual [1146.62890625], Unused: [848.23828125]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [411.359375]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [411.42578125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [1031.96875], Unused: [731.6796875]
+Memory (VM: aos_vm3)  Actual [1146.62890625], Unused: [848.26953125]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [400.09765625]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [400.28515625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [928.7734375], Unused: [628.5390625]
+Memory (VM: aos_vm3)  Actual [1031.96875], Unused: [733.59375]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [388.95703125]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [388.90234375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [928.7734375], Unused: [628.5390625]
+Memory (VM: aos_vm3)  Actual [1031.96875], Unused: [733.59375]
+Memory (VM: aos_vm1)  Actual [1274.03125], Unused: [377.453125]
+Memory (VM: aos_vm4)  Actual [1274.03125], Unused: [377.51953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [835.8984375], Unused: [535.66015625]
+Memory (VM: aos_vm3)  Actual [928.7734375], Unused: [630.421875]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [621.578125]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [621.64453125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [835.8984375], Unused: [535.66015625]
+Memory (VM: aos_vm3)  Actual [928.7734375], Unused: [630.421875]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [610.4375]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [610.3828125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [752.30859375], Unused: [452.10546875]
+Memory (VM: aos_vm3)  Actual [835.8984375], Unused: [537.54296875]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [599.0546875]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [599.0]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [752.30859375], Unused: [452.10546875]
+Memory (VM: aos_vm3)  Actual [835.8984375], Unused: [537.54296875]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [587.79296875]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [587.73828125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [677.078125], Unused: [376.90625]
+Memory (VM: aos_vm3)  Actual [752.30859375], Unused: [453.98828125]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [576.5625]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [576.5078125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [677.078125], Unused: [376.90625]
+Memory (VM: aos_vm3)  Actual [752.30859375], Unused: [453.98828125]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [565.1796875]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [565.125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [609.37109375], Unused: [309.09375]
+Memory (VM: aos_vm3)  Actual [677.078125], Unused: [378.7890625]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [553.91796875]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [553.86328125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [609.37109375], Unused: [309.09375]
+Memory (VM: aos_vm3)  Actual [677.078125], Unused: [378.7890625]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [542.65625]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [542.48046875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [548.43359375], Unused: [248.18359375]
+Memory (VM: aos_vm3)  Actual [609.37109375], Unused: [310.9765625]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [531.39453125]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [531.21875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [548.43359375], Unused: [248.18359375]
+Memory (VM: aos_vm3)  Actual [609.37109375], Unused: [310.9765625]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [520.1328125]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [519.95703125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [493.58984375], Unused: [193.328125]
+Memory (VM: aos_vm3)  Actual [548.43359375], Unused: [250.06640625]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [508.87109375]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [508.6953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [493.58984375], Unused: [193.328125]
+Memory (VM: aos_vm3)  Actual [548.43359375], Unused: [250.06640625]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [497.3671875]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [497.19140625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [444.23046875], Unused: [144.04296875]
+Memory (VM: aos_vm3)  Actual [493.58984375], Unused: [195.2109375]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [486.10546875]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [485.80859375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [444.23046875], Unused: [144.04296875]
+Memory (VM: aos_vm3)  Actual [493.58984375], Unused: [195.2109375]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [474.84375]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [474.42578125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6015625]
+Memory (VM: aos_vm3)  Actual [444.23046875], Unused: [145.92578125]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [463.4609375]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [463.04296875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6015625]
+Memory (VM: aos_vm3)  Actual [444.23046875], Unused: [145.92578125]
+Memory (VM: aos_vm1)  Actual [1528.83984375], Unused: [452.19921875]
+Memory (VM: aos_vm4)  Actual [1528.83984375], Unused: [451.78125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6015625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.484375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [746.94140625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [746.40234375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6015625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.484375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [735.55859375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [735.01953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6015625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [724.296875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [723.7578125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [713.03515625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [712.49609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [701.7734375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [701.234375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [690.1484375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [689.609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [678.5234375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [677.984375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [666.4140625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [665.875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [654.0625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [653.40234375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [641.62109375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [640.83984375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [628.90625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [628.125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [616.3125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [615.53125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [605.05078125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [604.390625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [593.42578125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [592.64453125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [581.80078125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [581.01953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [570.41796875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [569.63671875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [559.03515625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [558.25390625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [547.7734375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [546.9921875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [536.51171875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [535.609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [525.12890625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [524.34765625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [507.93359375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [507.03125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.515625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [496.671875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [495.76953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [485.41015625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [484.5078125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6328125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [474.26953125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [473.24609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [463.0078125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [461.984375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [451.74609375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [450.72265625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [440.36328125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [439.4609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [429.22265625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [428.19921875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [417.9921875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [417.08984375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [406.73046875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [405.70703125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [395.46875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [394.4453125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [384.20703125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [383.18359375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [373.06640625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [371.921875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [361.92578125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [360.78125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.546875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [350.54296875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [349.51953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6640625]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.578125]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [339.40234375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [338.37890625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.578125]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [328.26171875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [327.1171875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.578125]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [316.87890625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [315.85546875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.578125]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [305.6171875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [304.59375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.578125]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [294.35546875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [293.33203125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.578125]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [282.97265625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [281.94921875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [399.80859375], Unused: [101.578125]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [271.953125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [270.80859375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [479.76953125], Unused: [180.92578125]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [260.72265625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [259.578125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [479.76953125], Unused: [180.94921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [249.4609375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [248.31640625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [431.79296875], Unused: [133.6015625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [238.19921875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [236.93359375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [431.79296875], Unused: [133.6015625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [226.81640625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [225.671875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.4921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [215.43359375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [214.41015625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.4921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [204.29296875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [203.1484375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.4921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [192.84375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [191.765625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.4921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [181.58203125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [180.3828125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.4921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [170.3203125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [169.12109375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.4921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [159.05859375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [157.859375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.4921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [147.796875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [146.59765625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.7265625]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [136.53515625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [135.3359375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.7265625]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [125.2734375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [123.953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.7265625]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [113.76953125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [112.5703125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.7265625]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [102.5078125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [101.30859375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [399.80859375], Unused: [99.6953125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [91.24609375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [90.046875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [479.76953125], Unused: [179.23046875]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [79.86328125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [78.78515625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [479.76953125], Unused: [179.25390625]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [68.5078125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [67.31640625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [431.79296875], Unused: [131.90625]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [84.4375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [83.3671875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [431.79296875], Unused: [131.90625]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [73.296875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [72.2265625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.67578125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.5234375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [79.85546875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [78.76171875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.67578125]
+Memory (VM: aos_vm3)  Actual [388.61328125], Unused: [90.25]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [68.93359375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [67.58984375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.67578125]
+Memory (VM: aos_vm3)  Actual [466.3359375], Unused: [90.25]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [72.10546875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [71.03515625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.67578125]
+Memory (VM: aos_vm3)  Actual [466.3359375], Unused: [167.5078125]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [78.90625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [77.46484375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.67578125]
+Memory (VM: aos_vm3)  Actual [419.703125], Unused: [121.4921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [87.37890625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [85.62109375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.67578125]
+Memory (VM: aos_vm3)  Actual [419.703125], Unused: [121.4921875]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [76.48046875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [74.359375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.67578125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.59375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [65.33984375]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [63.03125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.67578125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.59375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [76.0625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [73.65625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.67578125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.59375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [64.6796875]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [78.48046875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.59375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [69.8515625]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [67.60546875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.59375]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [71.578125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [69.80859375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1834.609375], Unused: [1669.03125]
+Memory (VM: aos_vm4)  Actual [1834.609375], Unused: [1668.5546875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1651.1484375], Unused: [1485.57421875]
+Memory (VM: aos_vm4)  Actual [1651.1484375], Unused: [1485.09765625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1651.1484375], Unused: [1485.60546875]
+Memory (VM: aos_vm4)  Actual [1651.1484375], Unused: [1485.12890625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1486.03515625], Unused: [1320.43359375]
+Memory (VM: aos_vm4)  Actual [1486.03515625], Unused: [1319.95703125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1486.03515625], Unused: [1320.43359375]
+Memory (VM: aos_vm4)  Actual [1486.03515625], Unused: [1319.95703125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1337.43359375], Unused: [1171.8515625]
+Memory (VM: aos_vm4)  Actual [1337.43359375], Unused: [1171.375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1337.43359375], Unused: [1171.8515625]
+Memory (VM: aos_vm4)  Actual [1337.43359375], Unused: [1171.375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1203.69140625], Unused: [1038.1640625]
+Memory (VM: aos_vm4)  Actual [1203.69140625], Unused: [1037.6875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.70703125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1203.69140625], Unused: [1038.1640625]
+Memory (VM: aos_vm4)  Actual [1203.69140625], Unused: [1037.6875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.51953125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1083.32421875], Unused: [917.7890625]
+Memory (VM: aos_vm4)  Actual [1203.69140625], Unused: [1037.55859375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.51953125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [1083.32421875], Unused: [917.7890625]
+Memory (VM: aos_vm4)  Actual [1203.69140625], Unused: [1036.7109375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.51953125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [974.9921875], Unused: [808.5625]
+Memory (VM: aos_vm4)  Actual [1203.69140625], Unused: [1036.7109375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.51953125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [974.9921875], Unused: [808.5625]
+Memory (VM: aos_vm4)  Actual [1203.69140625], Unused: [1036.7109375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.51953125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [877.4921875], Unused: [711.08203125]
+Memory (VM: aos_vm4)  Actual [1083.32421875], Unused: [916.34375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.51953125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [877.4921875], Unused: [711.08203125]
+Memory (VM: aos_vm4)  Actual [1083.32421875], Unused: [916.34375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.51953125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [789.7421875], Unused: [623.2890625]
+Memory (VM: aos_vm4)  Actual [974.9921875], Unused: [807.96484375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.625]
+Memory (VM: aos_vm1)  Actual [789.7421875], Unused: [623.2890625]
+Memory (VM: aos_vm4)  Actual [974.9921875], Unused: [807.96484375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [710.76953125], Unused: [544.3671875]
+Memory (VM: aos_vm4)  Actual [877.4921875], Unused: [710.515625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [710.76953125], Unused: [544.3671875]
+Memory (VM: aos_vm4)  Actual [877.4921875], Unused: [710.515625]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [639.6953125], Unused: [473.28515625]
+Memory (VM: aos_vm4)  Actual [789.7421875], Unused: [622.84375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [639.6953125], Unused: [473.28515625]
+Memory (VM: aos_vm4)  Actual [789.7421875], Unused: [622.84375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [575.7265625], Unused: [409.34765625]
+Memory (VM: aos_vm4)  Actual [710.76953125], Unused: [543.76953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [575.7265625], Unused: [409.34765625]
+Memory (VM: aos_vm4)  Actual [710.76953125], Unused: [543.76953125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [518.15625], Unused: [351.70703125]
+Memory (VM: aos_vm4)  Actual [639.6953125], Unused: [472.80859375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [518.15625], Unused: [351.70703125]
+Memory (VM: aos_vm4)  Actual [639.6953125], Unused: [472.80859375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [466.33984375], Unused: [300.0]
+Memory (VM: aos_vm4)  Actual [575.7265625], Unused: [408.75]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [466.33984375], Unused: [300.0]
+Memory (VM: aos_vm4)  Actual [575.7265625], Unused: [408.75]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [419.70703125], Unused: [253.2578125]
+Memory (VM: aos_vm4)  Actual [518.15625], Unused: [351.23046875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [419.70703125], Unused: [253.2578125]
+Memory (VM: aos_vm4)  Actual [518.15625], Unused: [351.23046875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [377.73828125], Unused: [211.359375]
+Memory (VM: aos_vm4)  Actual [466.33984375], Unused: [299.40234375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [377.73828125], Unused: [211.359375]
+Memory (VM: aos_vm4)  Actual [466.33984375], Unused: [299.40234375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [339.96484375], Unused: [173.578125]
+Memory (VM: aos_vm4)  Actual [419.70703125], Unused: [252.78125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [339.96484375], Unused: [173.578125]
+Memory (VM: aos_vm4)  Actual [419.70703125], Unused: [252.78125]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [305.96875], Unused: [139.55078125]
+Memory (VM: aos_vm4)  Actual [377.73828125], Unused: [210.76171875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [305.96875], Unused: [139.55078125]
+Memory (VM: aos_vm4)  Actual [377.73828125], Unused: [210.76171875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.55078125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [275.37109375], Unused: [109.03515625]
+Memory (VM: aos_vm4)  Actual [339.96484375], Unused: [172.98046875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [275.37109375], Unused: [109.03515625]
+Memory (VM: aos_vm4)  Actual [339.96484375], Unused: [172.98046875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.65625]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.45703125]
+Memory (VM: aos_vm4)  Actual [305.96875], Unused: [139.10546875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.45703125]
+Memory (VM: aos_vm4)  Actual [305.96875], Unused: [139.10546875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.45703125]
+Memory (VM: aos_vm4)  Actual [275.37109375], Unused: [139.10546875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.45703125]
+Memory (VM: aos_vm4)  Actual [275.37109375], Unused: [108.10546875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.09375]
+Memory (VM: aos_vm4)  Actual [275.37109375], Unused: [108.10546875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.09375]
+Memory (VM: aos_vm4)  Actual [275.37109375], Unused: [108.10546875]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.09375]
+Memory (VM: aos_vm4)  Actual [247.8359375], Unused: [80.49609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.09375]
+Memory (VM: aos_vm4)  Actual [247.8359375], Unused: [80.49609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.09375]
+Memory (VM: aos_vm4)  Actual [247.8359375], Unused: [80.49609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.09375]
+Memory (VM: aos_vm4)  Actual [247.8359375], Unused: [80.49609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.09375]
+Memory (VM: aos_vm4)  Actual [247.8359375], Unused: [80.49609375]
+--------------------------------------------------
+Memory (VM: aos_vm2)  Actual [388.61328125], Unused: [88.58203125]
+Memory (VM: aos_vm3)  Actual [377.734375], Unused: [79.6875]
+Memory (VM: aos_vm1)  Actual [247.8359375], Unused: [81.09375]
+Memory (VM: aos_vm4)  Actual [247.8359375], Unused: [80.49609375]
+^CTraceback (most recent call last):
+  File "./monitor.py", line 49, in <module>
+    s.run()
+  File "/usr/lib/python2.7/sched.py", line 111, in run
+    delayfunc(time - now)
+KeyboardInterrupt
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[00m$ ^C
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[00m$ v[Kuvt [K-kvm c[Kdestroy a os-[K_vm1
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[00m$ uvt-kvm destroy aoos_vm1[K2
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[00m$ uvt-kvm destroy aoos_vm2[K3
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[00m$ uvt-kvm destroy aoos_vm3[K4
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[00m$ ls
+[0m[01;32massignall.sh[0m    [01;32mkillall.py[0m  [01;32mmemory_coordinator[0m       memory_coordinator.c  [01;32mruntest1.py[0m
+[01;32mcleanall.sh[0m     [01;34mlogs[0m        memory_coordinator1.log  memory_coordinator.o  [01;32mruntest2.py[0m
+HowToDoTest.md  [01;32mmakeall.sh[0m  memory_coordinator2.log  [01;32mmonitor.py[0m            [01;32mruntest3.py[0m
+__init__.py     Makefile    memory_coordinator3.log  Readme.md             [01;34mtestcases[0m
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/memory[00m$ cde [K[K cpu[K[K[K../cpu/
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ls
+[0m[01;32ma.out[0m         HowToDoTest.md  [01;32mmakeall.sh[0m  [01;32mruntest1.py[0m  [01;32mruntest4.py[0m  [01;32mvcpu_scheduler[0m
+[01;32massignall.sh[0m  __init__.py     Makefile    [01;32mruntest2.py[0m  [01;32mruntest5.py[0m  vcpu_scheduler.c
+[01;32mcleanall.sh[0m   [01;32mkillall.py[0m      [01;32mmonitor.py[0m  [01;32mruntest3.py[0m  [01;34mtestcases[0m    vcpu_scheduler.o
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ virsh list
+ Id    Name                           State
+----------------------------------------------------
+
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-ikv[K[K[Kkvm create aos_v m1 release=bionic --memory 256
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm1 release=bionic --memory 256[1P[1@2
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm2 release=bionic --memory 256[1P[1@3
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm3 release=bionic --memory 256[1P[1@4
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm4 release=bionic --memory 256[1P[1@5
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm5 release=bionic --memory 256[1P[1@6
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm6 release=bionic --memory 256[1P[1@7
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm7 release=bionic --memory 256[1P[1@8
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./[K[Kcd ..
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./startallvm.py 
+libvirt: QEMU Driver error : Requested operation is not valid: domain is already running
+Issues starting vm [aos_vm2], most likely it was already running
+libvirt: QEMU Driver error : Requested operation is not valid: domain is already running
+Issues starting vm [aos_vm4], most likely it was already running
+libvirt: QEMU Driver error : Requested operation is not valid: domain is already running
+Issues starting vm [aos_vm3], most likely it was already running
+libvirt: QEMU Driver error : Requested operation is not valid: domain is already running
+Issues starting vm [aos_vm6], most likely it was already running
+libvirt: QEMU Driver error : Requested operation is not valid: domain is already running
+Issues starting vm [aos_vm7], most likely it was already running
+libvirt: QEMU Driver error : Requested operation is not valid: domain is already running
+Issues starting vm [aos_vm5], most likely it was already running
+libvirt: QEMU Driver error : Requested operation is not valid: domain is already running
+Issues starting vm [aos_vm1], most likely it was already running
+libvirt: QEMU Driver error : Requested operation is not valid: domain is already running
+Issues starting vm [aos_vm8], most likely it was already running
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ cd cpu
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.132.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:wf8DEoSgCbayveH0Kv7Yd+/1F2fMlxneMtptuLHlcnk.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:18
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.132"
+ECDSA host key for 192.168.122.132 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.200.
+The authenticity of host '192.168.122.200 (192.168.122.200)' can't be established.
+ECDSA key fingerprint is SHA256:C9Fk4Yn3dhPrJdYhCe/tnUsuFyssNABHPaTGyZYkCzY.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.200' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.17.
+The authenticity of host '192.168.122.17 (192.168.122.17)' can't be established.
+ECDSA key fingerprint is SHA256:GCx7PcIDgon31TFBmLsR7Hx+NemGHcAPLxmG3SVWwFM.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.17' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.195.
+The authenticity of host '192.168.122.195 (192.168.122.195)' can't be established.
+ECDSA key fingerprint is SHA256:J/pLyXx70eY2RucAMGEL8fEcNDlWh4Yq+VaW4anfSkE.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.195' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.159.
+The authenticity of host '192.168.122.159 (192.168.122.159)' can't be established.
+ECDSA key fingerprint is SHA256:rEVET9URFfaKmHPx+b6CAjmWa645YDNyFwJMJLsHeEE.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.159' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.213.
+The authenticity of host '192.168.122.213 (192.168.122.213)' can't be established.
+ECDSA key fingerprint is SHA256:FcbDdRDolF6Y1D6FPqabbC/Eeo6HP4RQKRcHseFC4UE.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.213' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.169.
+The authenticity of host '192.168.122.169 (192.168.122.169)' can't be established.
+ECDSA key fingerprint is SHA256:2TGohGND6fikjE+i7Z2xjY/b/+G17z7XP4nPO9o+Hlk.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.169' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.47.
+The authenticity of host '192.168.122.47 (192.168.122.47)' can't be established.
+ECDSA key fingerprint is SHA256:/lLBaauYGRrThVivZBiRBo3Rk6lkclCcBdU9t2eIAjc.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.47' (ECDSA) to the list of known hosts.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ yes[K[K[K./asi[Ksignall.sh 
+Copy cpu/ to 192.168.122.132.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:wf8DEoSgCbayveH0Kv7Yd+/1F2fMlxneMtptuLHlcnk.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:18
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.132"
+ECDSA host key for 192.168.122.132 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.200.
+Copy cpu/ to 192.168.122.17.
+Copy cpu/ to 192.168.122.195.
+Copy cpu/ to 192.168.122.159.
+Copy cpu/ to 192.168.122.213.
+Copy cpu/ to 192.168.122.169.
+Copy cpu/ to 192.168.122.47.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ script cpu_scheduler 1.log
+Script started, file is cpu_scheduler1.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ /monitor.py
+bash: /monitor.py: No such file or directory
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./monitor.py
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm3']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 1.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm8']
+7 - usage: 0.0 | mapping ['aos_vm7']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm2']
+11 - usage: 0.0 | mapping ['aos_vm6', 'aos_vm1']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm3', 'aos_vm1']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping ['aos_vm6']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm8']
+7 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm7']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm2']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm3', 'aos_vm1']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 1.0 | mapping ['aos_vm6']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm8']
+7 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm7']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm2']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm3', 'aos_vm1']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm8']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm7']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping ['aos_vm5']
+10 - usage: 0.0 | mapping ['aos_vm2']
+11 - usage: 0.0 | mapping ['aos_vm6']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm3', 'aos_vm1']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm8']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm7']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping ['aos_vm5']
+10 - usage: 0.0 | mapping ['aos_vm2']
+11 - usage: 0.0 | mapping ['aos_vm6']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm3', 'aos_vm7']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping ['aos_vm1']
+6 - usage: 0.0 | mapping ['aos_vm8']
+7 - usage: 0.0 | mapping ['aos_vm4']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping ['aos_vm5']
+10 - usage: 0.0 | mapping ['aos_vm2']
+11 - usage: 0.0 | mapping ['aos_vm6']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm3', 'aos_vm7']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping ['aos_vm1']
+6 - usage: 0.0 | mapping ['aos_vm8']
+7 - usage: 0.0 | mapping ['aos_vm4']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm2']
+11 - usage: 0.0 | mapping ['aos_vm6', 'aos_vm5']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2', 'aos_vm3', 'aos_vm5', 'aos_vm1']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping ['aos_vm7']
+6 - usage: 0.0 | mapping ['aos_vm8']
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm4']
+11 - usage: 0.0 | mapping ['aos_vm6']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm1']
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm1']
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm1']
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm1']
+7 - usage: 1.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm1']
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm1']
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 0.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm1']
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 1.0 | mapping ['aos_vm2', 'aos_vm4', 'aos_vm5', 'aos_vm1', 'aos_vm8']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2', 'aos_vm3']
+1 - usage: 0.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping ['aos_vm1']
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 2.0 | mapping ['aos_vm2']
+1 - usage: 43.0 | mapping ['aos_vm4']
+2 - usage: 44.0 | mapping ['aos_vm3']
+3 - usage: 44.0 | mapping ['aos_vm6']
+4 - usage: 43.0 | mapping ['aos_vm7']
+5 - usage: 43.0 | mapping ['aos_vm5']
+6 - usage: 45.0 | mapping ['aos_vm1']
+7 - usage: 45.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 50.0 | mapping ['aos_vm4']
+2 - usage: 26.0 | mapping ['aos_vm3']
+3 - usage: 25.0 | mapping ['aos_vm6']
+4 - usage: 26.0 | mapping ['aos_vm7']
+5 - usage: 26.0 | mapping ['aos_vm5']
+6 - usage: 27.0 | mapping ['aos_vm1']
+7 - usage: 47.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 21.0 | mapping ['aos_vm4']
+2 - usage: 17.0 | mapping ['aos_vm3']
+3 - usage: 18.0 | mapping ['aos_vm6']
+4 - usage: 19.0 | mapping ['aos_vm7']
+5 - usage: 17.0 | mapping ['aos_vm5']
+6 - usage: 18.0 | mapping ['aos_vm1']
+7 - usage: 22.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 11.0 | mapping ['aos_vm4']
+2 - usage: 10.0 | mapping ['aos_vm3']
+3 - usage: 9.0 | mapping ['aos_vm6']
+4 - usage: 8.0 | mapping ['aos_vm7']
+5 - usage: 10.0 | mapping ['aos_vm5']
+6 - usage: 8.0 | mapping ['aos_vm1']
+7 - usage: 10.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 12.0 | mapping ['aos_vm4']
+2 - usage: 12.0 | mapping ['aos_vm3']
+3 - usage: 11.0 | mapping ['aos_vm6']
+4 - usage: 10.0 | mapping ['aos_vm7']
+5 - usage: 10.0 | mapping ['aos_vm5']
+6 - usage: 10.0 | mapping ['aos_vm1']
+7 - usage: 12.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 22.0 | mapping ['aos_vm4']
+2 - usage: 17.0 | mapping ['aos_vm3']
+3 - usage: 17.0 | mapping ['aos_vm6']
+4 - usage: 18.0 | mapping ['aos_vm7']
+5 - usage: 17.0 | mapping ['aos_vm5']
+6 - usage: 18.0 | mapping ['aos_vm1']
+7 - usage: 22.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+^CTraceback (most recent call last):
+  File "./monitor.py", line 117, in <module>
+    s.run()
+  File "/usr/lib/python2.7/sched.py", line 111, in run
+    delayfunc(time - now)
+KeyboardInterrupt
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ exit
+exit
+Script done, file is cpu_scheduler1.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/danielvaseekaran/.ssh/id_rsa): 
+/home/danielvaseekaran/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/danielvaseekaran/.ssh/id_rsa.
+Your public key has been saved in /home/danielvaseekaran/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:drmKJG6P3JJ6P0IhD2walde7gnqd2J0hfEYFIrKZ4QM danielvaseekaran@school
+The key's randomart image is:
++---[RSA 2048]----+
+|E ......         |
+|o*o.... .        |
+|+= .   o         |
+|. * . o    .     |
+| + * o .S o      |
+|. . * =. . .     |
+| . =.O.o  .      |
+|. ooX=+. .       |
+| ..++==..        |
++----[SHA256]-----+
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assib[Kgnall.sh 
+Copy cpu/ to 192.168.122.132.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:wf8DEoSgCbayveH0Kv7Yd+/1F2fMlxneMtptuLHlcnk.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:18
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.132"
+ECDSA host key for 192.168.122.132 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.200.
+scp: /home/ubuntu//cpu/testcases/1/iambusy: Text file busy
+Copy cpu/ to 192.168.122.17.
+scp: /home/ubuntu//cpu/testcases/1/iambusy: Text file busy
+Copy cpu/ to 192.168.122.195.
+scp: /home/ubuntu//cpu/testcases/1/iambusy: Text file busy
+Copy cpu/ to 192.168.122.159.
+scp: /home/ubuntu//cpu/testcases/1/iambusy: Text file busy
+Copy cpu/ to 192.168.122.213.
+scp: /home/ubuntu//cpu/testcases/1/iambusy: Text file busy
+Copy cpu/ to 192.168.122.169.
+scp: /home/ubuntu//cpu/testcases/1/iambusy: Text file busy
+Copy cpu/ to 192.168.122.47.
+scp: /home/ubuntu//cpu/testcases/1/iambusy: Text file busy
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-simplestreams-libbvirt sync release=bionic arch=amd64
+
+
+
+^CTraceback (most recent call last):
+  File "/usr/bin/uvt-simplestreams-libvirt", line 27, in <module>
+    uvtool.libvirt.simplestreams.main()
+  File "/usr/lib/python2.7/dist-packages/uvtool/libvirt/simplestreams.py", line 329, in main
+    args.func(args)
+  File "/usr/lib/python2.7/dist-packages/uvtool/libvirt/simplestreams.py", line 269, in main_sync
+    tmirror.sync(smirror, initial_path)
+  File "/usr/lib/python2.7/dist-packages/simplestreams/mirrors/__init__.py", line 91, in sync
+    return self.sync_index(reader, path, data, content)
+  File "/usr/lib/python2.7/dist-packages/simplestreams/mirrors/__init__.py", line 254, in sync_index
+    self.sync(reader, path=epath)
+  File "/usr/lib/python2.7/dist-packages/simplestreams/mirrors/__init__.py", line 89, in sync
+    return self.sync_products(reader, path, data, content)
+  File "/usr/lib/python2.7/dist-packages/simplestreams/mirrors/__init__.py", line 341, in sync_products
+    self.insert_item(item, src, target, pgree, ipath_cs)
+  File "/usr/lib/python2.7/dist-packages/uvtool/libvirt/simplestreams.py", line 236, in insert_item
+    pool_name=LIBVIRT_POOL_NAME
+  File "/usr/lib/python2.7/dist-packages/uvtool/libvirt/__init__.py", line 58, in create_volume_from_fobj
+    shutil.copyfileobj(fobj, compressed_fobj)
+  File "/usr/lib/python2.7/shutil.py", line 63, in copyfileobj
+    buf = fsrc.read(length)
+  File "/usr/lib/python2.7/dist-packages/simplestreams/contentsource.py", line 275, in read
+    buf = self.cs.read(size)
+  File "/usr/lib/python2.7/dist-packages/simplestreams/contentsource.py", line 136, in read
+    return self.fd.read(size)
+  File "/usr/lib/python2.7/dist-packages/simplestreams/contentsource.py", line 401, in read
+    return self._read(size)
+  File "/usr/lib/python2.7/dist-packages/simplestreams/contentsource.py", line 442, in read_raw
+    return _read_fd(self.req.raw, size)
+  File "/usr/lib/python2.7/dist-packages/simplestreams/contentsource.py", line 462, in _read_fd
+    return fd.read(size)
+  File "/usr/lib/python2.7/dist-packages/urllib3/response.py", line 384, in read
+    data = self._fp.read(amt)
+  File "/usr/lib/python2.7/httplib.py", line 607, in read
+    s = self.fp.read(amt)
+  File "/usr/lib/python2.7/socket.py", line 384, in read
+    data = self._sock.recv(left)
+  File "/usr/lib/python2.7/ssl.py", line 754, in recv
+    return self.read(buflen)
+  File "/usr/lib/python2.7/ssl.py", line 641, in read
+    v = self._sslobj.read(len)
+KeyboardInterrupt
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-simplestreams-libbvirt sync release=bionic arch=amd64
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ssh [K-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/danielvaseekaran/.ssh/id_rsa): 
+/home/danielvaseekaran/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/danielvaseekaran/.ssh/id_rsa.
+Your public key has been saved in /home/danielvaseekaran/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:TFYqDIgz7Gyyy6fu5BsJxyZF9OH1grP4lHP6BIRJGsI danielvaseekaran@school
+The key's randomart image is:
++---[RSA 2048]----+
+|=o+.o .   .      |
+|=E.= * . o       |
+|+o+ * + =        |
+|.* o + *         |
+|=.= * . S        |
+|o+.o =           |
+|.=  o .          |
+|+... o           |
+|o*+   .          |
++----[SHA256]-----+
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_v m1 release=bionic
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm1 release=bionic[C[C[1P release=bionic[C2 release=bionic[C[C
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm2 release=bionic[1P release=bionic[C3 release=bionic[C[C
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm3 release=bionic[1P release=bionic[C4 release=bionic[C[C
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm4 release=bionic[1P release=bionic[C5 release=bionic[C[C
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm5 release=bionic[1P release=bionic[C6 release=bionic[C[C
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm6 release=bionic[1P release=bionic[C7 release=bionic[C[C
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ uvt-kvm create aos_vmm7 release=bionic[C[1P release=bionic[C8 release=bionic[C[C
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+uvt-kvm: error: no IP address found for libvirt machine 'aos_vm6'.
+uvt-kvm: error: no IP address found for libvirt machine 'aos_vm8'.
+uvt-kvm: error: no IP address found for libvirt machine 'aos_vm7'.
+Copy cpu/ to .
+ssh: Could not resolve hostname : Name or service not known
+lost connection
+Copy cpu/ to .
+ssh: Could not resolve hostname : Name or service not known
+lost connection
+Copy cpu/ to 192.168.122.117.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:xXd80VTvi0gBjOB5zvtd+WUnIMf6CgWtfxCeTo0HcEs.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:20
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.117"
+ECDSA host key for 192.168.122.117 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.236.
+The authenticity of host '192.168.122.236 (192.168.122.236)' can't be established.
+ECDSA key fingerprint is SHA256:h+LnZVI395CWAwc9l9btqejctYE5ub+gJG3u7ygNxiU.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.236' (ECDSA) to the list of known hosts.
+Copy cpu/ to .
+ssh: Could not resolve hostname : Name or service not known
+lost connection
+Copy cpu/ to 192.168.122.69.
+The authenticity of host '192.168.122.69 (192.168.122.69)' can't be established.
+ECDSA key fingerprint is SHA256:h8aVfyFnyyfISYcBqaxg10YqOqeuOvFc831cDAIIg8c.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.69' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.74.
+The authenticity of host '192.168.122.74 (192.168.122.74)' can't be established.
+ECDSA key fingerprint is SHA256:xRNTTwHHC+nJX0AnK1ei02ICSX6WbkEfKhCAETR5w8Q.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.74' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.48.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:rNPMko9s1NMur/vbogJu9IRYLF8SL/N8y3SCX9HN3W8.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:6
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.48"
+ECDSA host key for 192.168.122.48 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+The authenticity of host '192.168.122.52 (192.168.122.52)' can't be established.
+ECDSA key fingerprint is SHA256:/0/0lo6Psmt5o7mmZ5dkpmbIcqzvnc01CKYocJ46t2s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.52' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.115.
+The authenticity of host '192.168.122.115 (192.168.122.115)' can't be established.
+ECDSA key fingerprint is SHA256:GtflOpmBEb4ZtU3kpNsze6BEq0Y/rnqAn7kYbBhi59Y.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.115' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.117.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:xXd80VTvi0gBjOB5zvtd+WUnIMf6CgWtfxCeTo0HcEs.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:20
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.117"
+ECDSA host key for 192.168.122.117 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:9iK2ETlKHdggVGcaviMKdvQMdXlEPzeEpFtmugBfsfw.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:13
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.57"
+ECDSA host key for 192.168.122.57 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:rNPMko9s1NMur/vbogJu9IRYLF8SL/N8y3SCX9HN3W8.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:6
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.48"
+ECDSA host key for 192.168.122.48 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:xXd80VTvi0gBjOB5zvtd+WUnIMf6CgWtfxCeTo0HcEs.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:20
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.117"
+ECDSA host key for 192.168.122.117 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:9iK2ETlKHdggVGcaviMKdvQMdXlEPzeEpFtmugBfsfw.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:13
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.57"
+ECDSA host key for 192.168.122.57 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:rNPMko9s1NMur/vbogJu9IRYLF8SL/N8y3SCX9HN3W8.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:6
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.48"
+ECDSA host key for 192.168.122.48 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:xXd80VTvi0gBjOB5zvtd+WUnIMf6CgWtfxCeTo0HcEs.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:20
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.117"
+ECDSA host key for 192.168.122.117 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:9iK2ETlKHdggVGcaviMKdvQMdXlEPzeEpFtmugBfsfw.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:13
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.57"
+ECDSA host key for 192.168.122.57 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:rNPMko9s1NMur/vbogJu9IRYLF8SL/N8y3SCX9HN3W8.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:6
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.48"
+ECDSA host key for 192.168.122.48 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ssh-keygen -f "/home//danielvaseekaran/.ssh/known_hosts" -R "192.168.122.48"
+# Host 192.168.122.48 found: line 6
+/home/danielvaseekaran/.ssh/known_hosts updated.
+Original contents retained as /home/danielvaseekaran/.ssh/known_hosts.old
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ssh-keygen -f "/home//danielvaseekaran/.ssh/known_hosts" -R "192.168.122.48"[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [5P./assignall.sh 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:xXd80VTvi0gBjOB5zvtd+WUnIMf6CgWtfxCeTo0HcEs.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:19
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.117"
+ECDSA host key for 192.168.122.117 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:9iK2ETlKHdggVGcaviMKdvQMdXlEPzeEpFtmugBfsfw.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:12
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.57"
+ECDSA host key for 192.168.122.57 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+The authenticity of host '192.168.122.48 (192.168.122.48)' can't be established.
+ECDSA key fingerprint is SHA256:rNPMko9s1NMur/vbogJu9IRYLF8SL/N8y3SCX9HN3W8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.48' (ECDSA) to the list of known hosts.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ssh-keygen -f "/home//danielvaseekaran/.ssh/known_hosts" -R "192.168.122.57"
+# Host 192.168.122.57 found: line 12
+/home/danielvaseekaran/.ssh/known_hosts updated.
+Original contents retained as /home/danielvaseekaran/.ssh/known_hosts.old
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ssh-keygen -f "/home//danielvaseekaran/.ssh/known_hosts" -R "192.168.122.57"[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [5P./assignall.sh 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:xXd80VTvi0gBjOB5zvtd+WUnIMf6CgWtfxCeTo0HcEs.
+Please contact your system administrator.
+Add correct host key in /home/danielvaseekaran/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/danielvaseekaran/.ssh/known_hosts:18
+  remove with:
+  ssh-keygen -f "/home/danielvaseekaran/.ssh/known_hosts" -R "192.168.122.117"
+ECDSA host key for 192.168.122.117 has changed and you have requested strict checking.
+Host key verification failed.
+lost connection
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+The authenticity of host '192.168.122.57 (192.168.122.57)' can't be established.
+ECDSA key fingerprint is SHA256:9iK2ETlKHdggVGcaviMKdvQMdXlEPzeEpFtmugBfsfw.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added '192.168.122.57' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ssh-keygen -f "/home//danielvaseekaran/.ssh/known_hosts" -R "192.168.122.117"
+# Host 192.168.122.117 found: line 18
+/home/danielvaseekaran/.ssh/known_hosts updated.
+Original contents retained as /home/danielvaseekaran/.ssh/known_hosts.old
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ssh-keygen -f "/home//danielvaseekaran/.ssh/known_hosts" -R "192.168.122.117"[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [5P./assignall.sh 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+The authenticity of host '192.168.122.117 (192.168.122.117)' can't be established.
+ECDSA key fingerprint is SHA256:xXd80VTvi0gBjOB5zvtd+WUnIMf6CgWtfxCeTo0HcEs.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.122.117' (ECDSA) to the list of known hosts.
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./monitor.py [K[K[K[K[K[K[K[K[K[K[K[K[Kvcpu_scheduler1.logsvcpu_scheduler1.log [A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [Ccvcpu_scheduler1.logg[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [C[Crvcpu_scheduler1.log[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [C[C[Civcpu_scheduler1.log[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [C[C[C[Cpvcpu_scheduler1.log[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [C[C[C[C[Ctvcpu_scheduler1.log[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [C[C[C[C[C[C vcpu_scheduler1.log[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [C[C[C[C[C[C[C
+
+Script started, file is vcpu_scheduler1.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./monitor.py 
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm7']
+1 - usage: 1.0 | mapping ['aos_vm1']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping ['aos_vm2']
+5 - usage: 0.0 | mapping ['aos_vm6']
+6 - usage: 0.0 | mapping ['aos_vm8']
+7 - usage: 0.0 | mapping ['aos_vm5']
+8 - usage: 0.0 | mapping ['aos_vm3']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm7']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm2']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm4']
+8 - usage: 0.0 | mapping ['aos_vm6', 'aos_vm5']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm3']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm6']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm2']
+4 - usage: 1.0 | mapping ['aos_vm1']
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm4']
+8 - usage: 0.0 | mapping ['aos_vm5']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm3']
+11 - usage: 0.0 | mapping ['aos_vm7']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm8']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm2']
+8 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm5']
+9 - usage: 0.0 | mapping ['aos_vm3']
+10 - usage: 0.0 | mapping ['aos_vm4']
+11 - usage: 0.0 | mapping ['aos_vm7']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm8']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 1.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm2']
+8 - usage: 0.0 | mapping ['aos_vm1']
+9 - usage: 0.0 | mapping ['aos_vm5', 'aos_vm3']
+10 - usage: 0.0 | mapping ['aos_vm4']
+11 - usage: 0.0 | mapping ['aos_vm7']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm4']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping ['aos_vm1']
+6 - usage: 0.0 | mapping ['aos_vm3']
+7 - usage: 0.0 | mapping ['aos_vm2']
+8 - usage: 0.0 | mapping ['aos_vm5']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping ['aos_vm7']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm4']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping ['aos_vm1']
+6 - usage: 0.0 | mapping ['aos_vm3']
+7 - usage: 0.0 | mapping ['aos_vm2']
+8 - usage: 0.0 | mapping ['aos_vm5']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping ['aos_vm7']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm1', 'aos_vm5']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 1.0 | mapping ['aos_vm6', 'aos_vm8', 'aos_vm2']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping ['aos_vm7']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm4']
+1 - usage: 0.0 | mapping ['aos_vm6', 'aos_vm1', 'aos_vm5']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm2']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping ['aos_vm7']
+--------------------------------------------------
+0 - usage: 1.0 | mapping ['aos_vm6', 'aos_vm8', 'aos_vm4', 'aos_vm1', 'aos_vm7', 'aos_vm2', 'aos_vm5', 'aos_vm3']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 9.0 | mapping ['aos_vm6']
+1 - usage: 9.0 | mapping ['aos_vm8']
+2 - usage: 9.0 | mapping ['aos_vm4']
+3 - usage: 9.0 | mapping ['aos_vm1']
+4 - usage: 9.0 | mapping ['aos_vm7']
+5 - usage: 10.0 | mapping ['aos_vm2']
+6 - usage: 5.0 | mapping ['aos_vm5']
+7 - usage: 10.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 69.0 | mapping ['aos_vm6']
+1 - usage: 71.0 | mapping ['aos_vm8']
+2 - usage: 49.0 | mapping ['aos_vm4']
+3 - usage: 49.0 | mapping ['aos_vm1']
+4 - usage: 50.0 | mapping ['aos_vm7']
+5 - usage: 49.0 | mapping ['aos_vm2']
+6 - usage: 72.0 | mapping ['aos_vm5']
+7 - usage: 71.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 22.0 | mapping ['aos_vm6']
+1 - usage: 22.0 | mapping ['aos_vm8']
+2 - usage: 17.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 18.0 | mapping ['aos_vm7']
+5 - usage: 17.0 | mapping ['aos_vm2']
+6 - usage: 22.0 | mapping ['aos_vm5']
+7 - usage: 20.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 17.0 | mapping ['aos_vm6']
+1 - usage: 17.0 | mapping ['aos_vm8']
+2 - usage: 15.0 | mapping ['aos_vm4']
+3 - usage: 14.0 | mapping ['aos_vm1']
+4 - usage: 14.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 17.0 | mapping ['aos_vm5']
+7 - usage: 18.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 19.0 | mapping ['aos_vm6']
+1 - usage: 18.0 | mapping ['aos_vm8']
+2 - usage: 16.0 | mapping ['aos_vm4']
+3 - usage: 15.0 | mapping ['aos_vm1']
+4 - usage: 16.0 | mapping ['aos_vm7']
+5 - usage: 14.0 | mapping ['aos_vm2']
+6 - usage: 18.0 | mapping ['aos_vm5']
+7 - usage: 19.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 21.0 | mapping ['aos_vm6']
+1 - usage: 21.0 | mapping ['aos_vm8']
+2 - usage: 17.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 17.0 | mapping ['aos_vm2']
+6 - usage: 22.0 | mapping ['aos_vm5']
+7 - usage: 22.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 21.0 | mapping ['aos_vm6']
+1 - usage: 21.0 | mapping ['aos_vm8']
+2 - usage: 18.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 18.0 | mapping ['aos_vm2']
+6 - usage: 21.0 | mapping ['aos_vm5']
+7 - usage: 20.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 9.0 | mapping ['aos_vm6']
+1 - usage: 10.0 | mapping ['aos_vm8']
+2 - usage: 9.0 | mapping ['aos_vm4']
+3 - usage: 9.0 | mapping ['aos_vm1']
+4 - usage: 8.0 | mapping ['aos_vm7']
+5 - usage: 8.0 | mapping ['aos_vm2']
+6 - usage: 9.0 | mapping ['aos_vm5']
+7 - usage: 10.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 13.0 | mapping ['aos_vm6']
+1 - usage: 13.0 | mapping ['aos_vm8']
+2 - usage: 11.0 | mapping ['aos_vm4']
+3 - usage: 11.0 | mapping ['aos_vm1']
+4 - usage: 11.0 | mapping ['aos_vm7']
+5 - usage: 11.0 | mapping ['aos_vm2']
+6 - usage: 13.0 | mapping ['aos_vm5']
+7 - usage: 13.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 22.0 | mapping ['aos_vm6']
+1 - usage: 21.0 | mapping ['aos_vm8']
+2 - usage: 17.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 17.0 | mapping ['aos_vm2']
+6 - usage: 23.0 | mapping ['aos_vm5']
+7 - usage: 22.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 18.0 | mapping ['aos_vm6']
+1 - usage: 19.0 | mapping ['aos_vm8']
+2 - usage: 15.0 | mapping ['aos_vm4']
+3 - usage: 14.0 | mapping ['aos_vm1']
+4 - usage: 15.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 17.0 | mapping ['aos_vm5']
+7 - usage: 19.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 19.0 | mapping ['aos_vm6']
+1 - usage: 20.0 | mapping ['aos_vm8']
+2 - usage: 16.0 | mapping ['aos_vm4']
+3 - usage: 15.0 | mapping ['aos_vm1']
+4 - usage: 16.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 20.0 | mapping ['aos_vm5']
+7 - usage: 19.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 21.0 | mapping ['aos_vm6']
+1 - usage: 20.0 | mapping ['aos_vm8']
+2 - usage: 18.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 18.0 | mapping ['aos_vm2']
+6 - usage: 21.0 | mapping ['aos_vm5']
+7 - usage: 21.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 21.0 | mapping ['aos_vm6']
+1 - usage: 20.0 | mapping ['aos_vm8']
+2 - usage: 17.0 | mapping ['aos_vm4']
+3 - usage: 15.0 | mapping ['aos_vm1']
+4 - usage: 16.0 | mapping ['aos_vm7']
+5 - usage: 16.0 | mapping ['aos_vm2']
+6 - usage: 20.0 | mapping ['aos_vm5']
+7 - usage: 19.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 20.0 | mapping ['aos_vm6']
+1 - usage: 20.0 | mapping ['aos_vm8']
+2 - usage: 17.0 | mapping ['aos_vm4']
+3 - usage: 18.0 | mapping ['aos_vm1']
+4 - usage: 18.0 | mapping ['aos_vm7']
+5 - usage: 17.0 | mapping ['aos_vm2']
+6 - usage: 21.0 | mapping ['aos_vm5']
+7 - usage: 21.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 18.0 | mapping ['aos_vm6']
+1 - usage: 19.0 | mapping ['aos_vm8']
+2 - usage: 14.0 | mapping ['aos_vm4']
+3 - usage: 13.0 | mapping ['aos_vm1']
+4 - usage: 15.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 17.0 | mapping ['aos_vm5']
+7 - usage: 18.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 9.0 | mapping ['aos_vm6']
+1 - usage: 10.0 | mapping ['aos_vm8']
+2 - usage: 10.0 | mapping ['aos_vm4']
+3 - usage: 8.0 | mapping ['aos_vm1']
+4 - usage: 8.0 | mapping ['aos_vm7']
+5 - usage: 8.0 | mapping ['aos_vm2']
+6 - usage: 9.0 | mapping ['aos_vm5']
+7 - usage: 10.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 13.0 | mapping ['aos_vm6']
+1 - usage: 11.0 | mapping ['aos_vm8']
+2 - usage: 10.0 | mapping ['aos_vm4']
+3 - usage: 11.0 | mapping ['aos_vm1']
+4 - usage: 11.0 | mapping ['aos_vm7']
+5 - usage: 11.0 | mapping ['aos_vm2']
+6 - usage: 13.0 | mapping ['aos_vm5']
+7 - usage: 12.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 20.0 | mapping ['aos_vm6']
+1 - usage: 21.0 | mapping ['aos_vm8']
+2 - usage: 15.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 16.0 | mapping ['aos_vm2']
+6 - usage: 19.0 | mapping ['aos_vm5']
+7 - usage: 20.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 15.0 | mapping ['aos_vm6']
+1 - usage: 15.0 | mapping ['aos_vm8']
+2 - usage: 14.0 | mapping ['aos_vm4']
+3 - usage: 12.0 | mapping ['aos_vm1']
+4 - usage: 13.0 | mapping ['aos_vm7']
+5 - usage: 13.0 | mapping ['aos_vm2']
+6 - usage: 16.0 | mapping ['aos_vm5']
+7 - usage: 16.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+^CTraceback (most recent call last):
+  File "./monitor.py", line 117, in <module>
+    s.run()
+  File "/usr/lib/python2.7/sched.py", line 111, in run
+    delayfunc(time - now)
+KeyboardInterrupt
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ exit
+exit
+Script done, file is vcpu_scheduler1.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ cd ..
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./shutdownallvm.py 
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./startallvm.py 
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ cd cpu/
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+ssh: connect to host 192.168.122.52 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.115.
+ssh: connect to host 192.168.122.115 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.117.
+ssh: connect to host 192.168.122.117 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.236.
+ssh: connect to host 192.168.122.236 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.57.
+ssh: connect to host 192.168.122.57 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.69.
+ssh: connect to host 192.168.122.69 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.74.
+ssh: connect to host 192.168.122.74 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.48.
+ssh: connect to host 192.168.122.48 port 22: Connection refused
+lost connection
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh [8Pcd cpu/./startallvm.py [3@hutdown[C[C[C[C[C[C[C[C[Ccd ..[Kscript vcpu_schedulerr1.log[A]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ [5P./assignall.sh 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -f "/home//danielvaseekaran/.ssh/known_hosts" -R "192.168.122.117"^C
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./moni[K[K[K[K[K[Kscript vcpu_schedule r2.log
+Script started, file is vcpu_scheduler2.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./monitor.py
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 6.0 | mapping ['aos_vm8']
+1 - usage: 0.0 | mapping []
+2 - usage: 1.0 | mapping ['aos_vm2']
+3 - usage: 3.0 | mapping ['aos_vm4']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 1.0 | mapping ['aos_vm6', 'aos_vm1']
+8 - usage: 0.0 | mapping []
+9 - usage: 1.0 | mapping ['aos_vm3']
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm2']
+1 - usage: 3.0 | mapping ['aos_vm1']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm5']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping ['aos_vm8']
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 1.0 | mapping ['aos_vm7']
+9 - usage: 1.0 | mapping ['aos_vm6']
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm3']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm1']
+1 - usage: 1.0 | mapping ['aos_vm2']
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping ['aos_vm6']
+5 - usage: 1.0 | mapping ['aos_vm4']
+6 - usage: 0.0 | mapping ['aos_vm8']
+7 - usage: 0.0 | mapping []
+8 - usage: 3.0 | mapping ['aos_vm7']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping ['aos_vm5']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm1']
+2 - usage: 0.0 | mapping []
+3 - usage: 1.0 | mapping ['aos_vm8']
+4 - usage: 2.0 | mapping ['aos_vm2']
+5 - usage: 1.0 | mapping ['aos_vm5']
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 1.0 | mapping ['aos_vm3']
+9 - usage: 0.0 | mapping ['aos_vm4']
+10 - usage: 0.0 | mapping ['aos_vm6', 'aos_vm7']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm6']
+2 - usage: 0.0 | mapping ['aos_vm2']
+3 - usage: 0.0 | mapping []
+4 - usage: 2.0 | mapping ['aos_vm3']
+5 - usage: 2.0 | mapping ['aos_vm8', 'aos_vm5']
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping ['aos_vm4', 'aos_vm7']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm1']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 1.0 | mapping ['aos_vm5']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm1']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 2.0 | mapping ['aos_vm6']
+6 - usage: 1.0 | mapping ['aos_vm4']
+7 - usage: 1.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping ['aos_vm2']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 1.0 | mapping ['aos_vm4']
+3 - usage: 1.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 1.0 | mapping ['aos_vm7']
+5 - usage: 1.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 1.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6', 'aos_vm5']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm2', 'aos_vm3']
+--------------------------------------------------
+0 - usage: 1.0 | mapping ['aos_vm6', 'aos_vm4', 'aos_vm7', 'aos_vm5']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 1.0 | mapping ['aos_vm8', 'aos_vm1', 'aos_vm2', 'aos_vm3']
+--------------------------------------------------
+0 - usage: 24.0 | mapping ['aos_vm6']
+1 - usage: 23.0 | mapping ['aos_vm8']
+2 - usage: 23.0 | mapping ['aos_vm4']
+3 - usage: 24.0 | mapping ['aos_vm1']
+4 - usage: 23.0 | mapping ['aos_vm7']
+5 - usage: 24.0 | mapping ['aos_vm2']
+6 - usage: 23.0 | mapping ['aos_vm5']
+7 - usage: 25.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 72.0 | mapping ['aos_vm6']
+1 - usage: 72.0 | mapping ['aos_vm8']
+2 - usage: 58.0 | mapping ['aos_vm4']
+3 - usage: 61.0 | mapping ['aos_vm1']
+4 - usage: 57.0 | mapping ['aos_vm7']
+5 - usage: 62.0 | mapping ['aos_vm2']
+6 - usage: 73.0 | mapping ['aos_vm5']
+7 - usage: 71.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 38.0 | mapping ['aos_vm6']
+1 - usage: 39.0 | mapping ['aos_vm8']
+2 - usage: 37.0 | mapping ['aos_vm4']
+3 - usage: 38.0 | mapping ['aos_vm1']
+4 - usage: 38.0 | mapping ['aos_vm7']
+5 - usage: 37.0 | mapping ['aos_vm2']
+6 - usage: 38.0 | mapping ['aos_vm5']
+7 - usage: 39.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 48.0 | mapping ['aos_vm6']
+1 - usage: 48.0 | mapping ['aos_vm8']
+2 - usage: 46.0 | mapping ['aos_vm4']
+3 - usage: 46.0 | mapping ['aos_vm1']
+4 - usage: 46.0 | mapping ['aos_vm7']
+5 - usage: 46.0 | mapping ['aos_vm2']
+6 - usage: 47.0 | mapping ['aos_vm5']
+7 - usage: 47.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 42.0 | mapping ['aos_vm6']
+1 - usage: 42.0 | mapping ['aos_vm8']
+2 - usage: 42.0 | mapping ['aos_vm4']
+3 - usage: 42.0 | mapping ['aos_vm1']
+4 - usage: 41.0 | mapping ['aos_vm7']
+5 - usage: 42.0 | mapping ['aos_vm2']
+6 - usage: 43.0 | mapping ['aos_vm5']
+7 - usage: 43.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 52.0 | mapping ['aos_vm6']
+1 - usage: 52.0 | mapping ['aos_vm8']
+2 - usage: 49.0 | mapping ['aos_vm4']
+3 - usage: 50.0 | mapping ['aos_vm1']
+4 - usage: 51.0 | mapping ['aos_vm7']
+5 - usage: 49.0 | mapping ['aos_vm2']
+6 - usage: 52.0 | mapping ['aos_vm5']
+7 - usage: 52.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 51.0 | mapping ['aos_vm6']
+1 - usage: 51.0 | mapping ['aos_vm8']
+2 - usage: 49.0 | mapping ['aos_vm4']
+3 - usage: 49.0 | mapping ['aos_vm1']
+4 - usage: 49.0 | mapping ['aos_vm7']
+5 - usage: 50.0 | mapping ['aos_vm2']
+6 - usage: 51.0 | mapping ['aos_vm5']
+7 - usage: 51.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 51.0 | mapping ['aos_vm6']
+1 - usage: 51.0 | mapping ['aos_vm8']
+2 - usage: 49.0 | mapping ['aos_vm4']
+3 - usage: 50.0 | mapping ['aos_vm1']
+4 - usage: 49.0 | mapping ['aos_vm7']
+5 - usage: 48.0 | mapping ['aos_vm2']
+6 - usage: 51.0 | mapping ['aos_vm5']
+7 - usage: 51.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 51.0 | mapping ['aos_vm6']
+1 - usage: 50.0 | mapping ['aos_vm8']
+2 - usage: 51.0 | mapping ['aos_vm4']
+3 - usage: 49.0 | mapping ['aos_vm1']
+4 - usage: 50.0 | mapping ['aos_vm7']
+5 - usage: 50.0 | mapping ['aos_vm2']
+6 - usage: 51.0 | mapping ['aos_vm5']
+7 - usage: 50.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 51.0 | mapping ['aos_vm6']
+1 - usage: 52.0 | mapping ['aos_vm8']
+2 - usage: 49.0 | mapping ['aos_vm4']
+3 - usage: 49.0 | mapping ['aos_vm1']
+4 - usage: 48.0 | mapping ['aos_vm7']
+5 - usage: 49.0 | mapping ['aos_vm2']
+6 - usage: 51.0 | mapping ['aos_vm5']
+7 - usage: 52.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 43.0 | mapping ['aos_vm6']
+1 - usage: 43.0 | mapping ['aos_vm8']
+2 - usage: 42.0 | mapping ['aos_vm4']
+3 - usage: 41.0 | mapping ['aos_vm1']
+4 - usage: 42.0 | mapping ['aos_vm7']
+5 - usage: 44.0 | mapping ['aos_vm2']
+6 - usage: 44.0 | mapping ['aos_vm5']
+7 - usage: 43.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+^CTraceback (most recent call last):
+  File "./monitor.py", line 117, in <module>
+    s.run()
+  File "/usr/lib/python2.7/sched.py", line 111, in run
+    delayfunc(time - now)
+KeyboardInterrupt
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ exit
+exit
+Script done, file is vcpu_scheduler2.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ cd ..
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./shutdownallvm.py 
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./startallvm.py 
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ cd cpu/
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+ssh: connect to host 192.168.122.52 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.115.
+ssh: connect to host 192.168.122.115 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.117.
+ssh: connect to host 192.168.122.117 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.236.
+ssh: connect to host 192.168.122.236 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.57.
+ssh: connect to host 192.168.122.57 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.69.
+ssh: connect to host 192.168.122.69 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.74.
+ssh: connect to host 192.168.122.74 port 22: Connection refused
+lost connection
+Copy cpu/ to 192.168.122.48.
+ssh: connect to host 192.168.122.48 port 22: Connection refused
+lost connection
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ script c[Kvcpu_schedulerr3.log
+Script started, file is vcpu_scheduler3.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./mno[K[Konitor.py
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping ['aos_vm3']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 1.0 | mapping ['aos_vm5']
+5 - usage: 1.0 | mapping ['aos_vm4', 'aos_vm7']
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm2']
+11 - usage: 1.0 | mapping ['aos_vm1']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 4.0 | mapping ['aos_vm1']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping ['aos_vm5']
+5 - usage: 1.0 | mapping ['aos_vm7']
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping ['aos_vm6']
+9 - usage: 1.0 | mapping ['aos_vm3']
+10 - usage: 4.0 | mapping ['aos_vm4']
+11 - usage: 0.0 | mapping ['aos_vm2']
+--------------------------------------------------
+0 - usage: 1.0 | mapping ['aos_vm6']
+1 - usage: 2.0 | mapping ['aos_vm7']
+2 - usage: 1.0 | mapping ['aos_vm2']
+3 - usage: 0.0 | mapping ['aos_vm4']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm1']
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping ['aos_vm3']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping ['aos_vm5']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm3']
+2 - usage: 3.0 | mapping ['aos_vm2']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping ['aos_vm6']
+6 - usage: 0.0 | mapping []
+7 - usage: 2.0 | mapping ['aos_vm7', 'aos_vm5']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping ['aos_vm4']
+10 - usage: 0.0 | mapping []
+11 - usage: 1.0 | mapping ['aos_vm8', 'aos_vm1']
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 1.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 1.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 5.0 | mapping ['aos_vm5']
+7 - usage: 1.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 2.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 1.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 1.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 30.0 | mapping ['aos_vm6']
+1 - usage: 30.0 | mapping ['aos_vm8']
+2 - usage: 30.0 | mapping ['aos_vm4']
+3 - usage: 30.0 | mapping ['aos_vm1']
+4 - usage: 30.0 | mapping ['aos_vm7']
+5 - usage: 31.0 | mapping ['aos_vm2']
+6 - usage: 30.0 | mapping ['aos_vm5']
+7 - usage: 30.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 60.0 | mapping ['aos_vm6']
+1 - usage: 59.0 | mapping ['aos_vm8']
+2 - usage: 39.0 | mapping ['aos_vm4']
+3 - usage: 39.0 | mapping ['aos_vm1']
+4 - usage: 38.0 | mapping ['aos_vm7']
+5 - usage: 37.0 | mapping ['aos_vm2']
+6 - usage: 61.0 | mapping ['aos_vm5']
+7 - usage: 59.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 22.0 | mapping ['aos_vm6']
+1 - usage: 21.0 | mapping ['aos_vm8']
+2 - usage: 17.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 18.0 | mapping ['aos_vm2']
+6 - usage: 21.0 | mapping ['aos_vm5']
+7 - usage: 22.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 20.0 | mapping ['aos_vm6']
+1 - usage: 20.0 | mapping ['aos_vm8']
+2 - usage: 16.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 16.0 | mapping ['aos_vm2']
+6 - usage: 20.0 | mapping ['aos_vm5']
+7 - usage: 19.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 19.0 | mapping ['aos_vm6']
+1 - usage: 19.0 | mapping ['aos_vm8']
+2 - usage: 15.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 16.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 19.0 | mapping ['aos_vm5']
+7 - usage: 19.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 21.0 | mapping ['aos_vm6']
+1 - usage: 20.0 | mapping ['aos_vm8']
+2 - usage: 18.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 18.0 | mapping ['aos_vm7']
+5 - usage: 18.0 | mapping ['aos_vm2']
+6 - usage: 21.0 | mapping ['aos_vm5']
+7 - usage: 21.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 22.0 | mapping ['aos_vm6']
+1 - usage: 21.0 | mapping ['aos_vm8']
+2 - usage: 17.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 18.0 | mapping ['aos_vm2']
+6 - usage: 22.0 | mapping ['aos_vm5']
+7 - usage: 21.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 10.0 | mapping ['aos_vm6']
+1 - usage: 12.0 | mapping ['aos_vm8']
+2 - usage: 12.0 | mapping ['aos_vm4']
+3 - usage: 9.0 | mapping ['aos_vm1']
+4 - usage: 10.0 | mapping ['aos_vm7']
+5 - usage: 9.0 | mapping ['aos_vm2']
+6 - usage: 11.0 | mapping ['aos_vm5']
+7 - usage: 11.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 12.0 | mapping ['aos_vm6']
+1 - usage: 12.0 | mapping ['aos_vm8']
+2 - usage: 11.0 | mapping ['aos_vm4']
+3 - usage: 10.0 | mapping ['aos_vm1']
+4 - usage: 10.0 | mapping ['aos_vm7']
+5 - usage: 10.0 | mapping ['aos_vm2']
+6 - usage: 13.0 | mapping ['aos_vm5']
+7 - usage: 12.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 22.0 | mapping ['aos_vm6']
+1 - usage: 21.0 | mapping ['aos_vm8']
+2 - usage: 17.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 17.0 | mapping ['aos_vm2']
+6 - usage: 21.0 | mapping ['aos_vm5']
+7 - usage: 22.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 20.0 | mapping ['aos_vm6']
+1 - usage: 19.0 | mapping ['aos_vm8']
+2 - usage: 15.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 16.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 20.0 | mapping ['aos_vm5']
+7 - usage: 18.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 19.0 | mapping ['aos_vm6']
+1 - usage: 19.0 | mapping ['aos_vm8']
+2 - usage: 16.0 | mapping ['aos_vm4']
+3 - usage: 15.0 | mapping ['aos_vm1']
+4 - usage: 16.0 | mapping ['aos_vm7']
+5 - usage: 17.0 | mapping ['aos_vm2']
+6 - usage: 19.0 | mapping ['aos_vm5']
+7 - usage: 20.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 18.0 | mapping ['aos_vm6']
+1 - usage: 18.0 | mapping ['aos_vm8']
+2 - usage: 14.0 | mapping ['aos_vm4']
+3 - usage: 15.0 | mapping ['aos_vm1']
+4 - usage: 16.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 19.0 | mapping ['aos_vm5']
+7 - usage: 18.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+^CTraceback (most recent call last):
+  File "./monitor.py", line 117, in <module>
+    s.run()
+  File "/usr/lib/python2.7/sched.py", line 111, in run
+    delayfunc(time - now)
+KeyboardInterrupt
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ei[Kxit
+exit
+Script done, file is vcpu_scheduler3.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ cd ..
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./shutdownallvm.py 
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ .st[K[K/startallvm.py 
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./assignfiletoallvm.py [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd cpu/
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./cpu[K[K[K[K[Kscript vcpu_schedulerr4.log
+Script started, file is vcpu_scheduler4.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./monitor
+bash: ./monitor: No such file or directory
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./monitor.py 
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 1.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 1.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 1.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 1.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm5']
+1 - usage: 0.0 | mapping ['aos_vm6']
+2 - usage: 0.0 | mapping ['aos_vm2']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping ['aos_vm7', 'aos_vm3']
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm1']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm4']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 5.0 | mapping ['aos_vm2']
+1 - usage: 4.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping []
+3 - usage: 5.0 | mapping ['aos_vm3']
+4 - usage: 0.0 | mapping []
+5 - usage: 5.0 | mapping ['aos_vm7']
+6 - usage: 0.0 | mapping []
+7 - usage: 5.0 | mapping ['aos_vm6']
+8 - usage: 4.0 | mapping ['aos_vm5']
+9 - usage: 5.0 | mapping ['aos_vm8']
+10 - usage: 5.0 | mapping ['aos_vm1']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 56.0 | mapping ['aos_vm1']
+1 - usage: 72.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping []
+3 - usage: 58.0 | mapping ['aos_vm5']
+4 - usage: 0.0 | mapping []
+5 - usage: 116.0 | mapping ['aos_vm7', 'aos_vm2']
+6 - usage: 74.0 | mapping ['aos_vm6']
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 70.0 | mapping ['aos_vm3']
+11 - usage: 74.0 | mapping ['aos_vm4']
+--------------------------------------------------
+0 - usage: 20.0 | mapping ['aos_vm1']
+1 - usage: 0.0 | mapping []
+2 - usage: 40.0 | mapping ['aos_vm7', 'aos_vm2']
+3 - usage: 0.0 | mapping []
+4 - usage: 19.0 | mapping ['aos_vm4']
+5 - usage: 19.0 | mapping ['aos_vm8']
+6 - usage: 20.0 | mapping ['aos_vm3']
+7 - usage: 19.0 | mapping ['aos_vm6']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 18.0 | mapping ['aos_vm5']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 17.0 | mapping ['aos_vm8']
+1 - usage: 0.0 | mapping []
+2 - usage: 35.0 | mapping ['aos_vm4', 'aos_vm3']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 17.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 17.0 | mapping ['aos_vm1']
+9 - usage: 17.0 | mapping ['aos_vm7']
+10 - usage: 18.0 | mapping ['aos_vm5']
+11 - usage: 17.0 | mapping ['aos_vm6']
+--------------------------------------------------
+0 - usage: 19.0 | mapping ['aos_vm6']
+1 - usage: 19.0 | mapping ['aos_vm8']
+2 - usage: 18.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 18.0 | mapping ['aos_vm2']
+6 - usage: 17.0 | mapping ['aos_vm5']
+7 - usage: 18.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 21.0 | mapping ['aos_vm6']
+1 - usage: 19.0 | mapping ['aos_vm8']
+2 - usage: 16.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 16.0 | mapping ['aos_vm2']
+6 - usage: 20.0 | mapping ['aos_vm5']
+7 - usage: 20.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 19.0 | mapping ['aos_vm6']
+1 - usage: 18.0 | mapping ['aos_vm8']
+2 - usage: 16.0 | mapping ['aos_vm4']
+3 - usage: 15.0 | mapping ['aos_vm1']
+4 - usage: 15.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 19.0 | mapping ['aos_vm5']
+7 - usage: 19.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 11.0 | mapping ['aos_vm6']
+1 - usage: 11.0 | mapping ['aos_vm8']
+2 - usage: 9.0 | mapping ['aos_vm4']
+3 - usage: 9.0 | mapping ['aos_vm1']
+4 - usage: 10.0 | mapping ['aos_vm7']
+5 - usage: 10.0 | mapping ['aos_vm2']
+6 - usage: 11.0 | mapping ['aos_vm5']
+7 - usage: 10.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 14.0 | mapping ['aos_vm6']
+1 - usage: 14.0 | mapping ['aos_vm8']
+2 - usage: 11.0 | mapping ['aos_vm4']
+3 - usage: 10.0 | mapping ['aos_vm1']
+4 - usage: 10.0 | mapping ['aos_vm7']
+5 - usage: 11.0 | mapping ['aos_vm2']
+6 - usage: 13.0 | mapping ['aos_vm5']
+7 - usage: 14.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 19.0 | mapping ['aos_vm6']
+1 - usage: 19.0 | mapping ['aos_vm8']
+2 - usage: 16.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 16.0 | mapping ['aos_vm7']
+5 - usage: 16.0 | mapping ['aos_vm2']
+6 - usage: 21.0 | mapping ['aos_vm5']
+7 - usage: 19.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 20.0 | mapping ['aos_vm6']
+1 - usage: 20.0 | mapping ['aos_vm8']
+2 - usage: 16.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 17.0 | mapping ['aos_vm2']
+6 - usage: 19.0 | mapping ['aos_vm5']
+7 - usage: 20.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 22.0 | mapping ['aos_vm6']
+1 - usage: 22.0 | mapping ['aos_vm8']
+2 - usage: 18.0 | mapping ['aos_vm4']
+3 - usage: 17.0 | mapping ['aos_vm1']
+4 - usage: 17.0 | mapping ['aos_vm7']
+5 - usage: 18.0 | mapping ['aos_vm2']
+6 - usage: 22.0 | mapping ['aos_vm5']
+7 - usage: 22.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 19.0 | mapping ['aos_vm6']
+1 - usage: 20.0 | mapping ['aos_vm8']
+2 - usage: 17.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 18.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 21.0 | mapping ['aos_vm5']
+7 - usage: 20.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+^CTraceback (most recent call last):
+  File "./monitor.py", line 117, in <module>
+    s.run()
+  File "/usr/lib/python2.7/sched.py", line 111, in run
+    delayfunc(time - now)
+KeyboardInterrupt
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ exit
+exit
+Script done, file is vcpu_scheduler4.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./shut[K[K[K[K[K[Kcd ..
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./shutdownallvm.py 
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ls
+[0m[01;32massignfiletoallvm.py[0m  [01;32mdestroyallvm.py[0m           [01;34mmemory[0m              [01;32mshutdownallvm.py[0m  testLibrary.pyc
+[01;34mcpu[0m                   HowToCreateVMs-Ubuntu.md  README.md           [01;32mstartallvm.py[0m     vm.py
+[01;34mdan-notes[0m             __init__.py               [01;32msetallmaxmemory.py[0m  testLibrary.py    vm.pyc
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./shut[K[K[Ks[Ktartallvm.py 
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ ./assignfiletoallvm.py 
+Usage: ./assignfiletoallvm.py [file]
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ 
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1[00m$ cd cpu/
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+ssh: connect to host 192.168.122.48 port 22: Connection refused
+lost connection
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ /.assi[K[K[K[K[K[K./assignall.sh 
+Copy cpu/ to 192.168.122.52.
+Copy cpu/ to 192.168.122.115.
+Copy cpu/ to 192.168.122.117.
+Copy cpu/ to 192.168.122.236.
+Copy cpu/ to 192.168.122.57.
+Copy cpu/ to 192.168.122.69.
+Copy cpu/ to 192.168.122.74.
+Copy cpu/ to 192.168.122.48.
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ script vcpu_schedulerr5.log
+Script started, file is vcpu_scheduler5.log
+]0;danielvaseekaran@school: ~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[01;32mdanielvaseekaran@school[00m:[01;34m~/Documents/GTOMSCS/CS6210-AOS/projects/CS6210-project1/cpu[00m$ ./monitor.py 
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm3']
+2 - usage: 0.0 | mapping ['aos_vm1']
+3 - usage: 0.0 | mapping ['aos_vm6']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping ['aos_vm8']
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping ['aos_vm4']
+9 - usage: 0.0 | mapping ['aos_vm7']
+10 - usage: 0.0 | mapping ['aos_vm2']
+11 - usage: 0.0 | mapping ['aos_vm5']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm3']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm4']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm6']
+8 - usage: 0.0 | mapping ['aos_vm2']
+9 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm1', 'aos_vm7']
+10 - usage: 0.0 | mapping []
+11 - usage: 1.0 | mapping ['aos_vm5']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm3']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm4']
+4 - usage: 0.0 | mapping []
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping ['aos_vm7']
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping ['aos_vm6', 'aos_vm2']
+9 - usage: 0.0 | mapping ['aos_vm1']
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping ['aos_vm5']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm7', 'aos_vm3']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm5']
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm8']
+8 - usage: 0.0 | mapping ['aos_vm2']
+9 - usage: 0.0 | mapping ['aos_vm6']
+10 - usage: 0.0 | mapping []
+11 - usage: 1.0 | mapping ['aos_vm4']
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 0.0 | mapping ['aos_vm7', 'aos_vm3']
+2 - usage: 0.0 | mapping []
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm5']
+5 - usage: 0.0 | mapping []
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm4']
+8 - usage: 0.0 | mapping ['aos_vm2']
+9 - usage: 0.0 | mapping ['aos_vm6']
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 1.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 1.0 | mapping ['aos_vm5']
+7 - usage: 0.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 1.0 | mapping ['aos_vm6']
+1 - usage: 0.0 | mapping ['aos_vm8', 'aos_vm3']
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1']
+4 - usage: 0.0 | mapping ['aos_vm7', 'aos_vm5']
+5 - usage: 0.0 | mapping ['aos_vm2']
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping ['aos_vm3']
+1 - usage: 0.0 | mapping []
+2 - usage: 0.0 | mapping ['aos_vm4']
+3 - usage: 0.0 | mapping ['aos_vm1', 'aos_vm2']
+4 - usage: 0.0 | mapping ['aos_vm5']
+5 - usage: 1.0 | mapping ['aos_vm6']
+6 - usage: 0.0 | mapping []
+7 - usage: 0.0 | mapping []
+8 - usage: 0.0 | mapping ['aos_vm8']
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping ['aos_vm7']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 39.0 | mapping ['aos_vm4']
+1 - usage: 40.0 | mapping ['aos_vm8']
+2 - usage: 39.0 | mapping ['aos_vm6']
+3 - usage: 0.0 | mapping []
+4 - usage: 0.0 | mapping []
+5 - usage: 41.0 | mapping ['aos_vm3']
+6 - usage: 0.0 | mapping []
+7 - usage: 38.0 | mapping ['aos_vm5']
+8 - usage: 40.0 | mapping ['aos_vm7']
+9 - usage: 40.0 | mapping ['aos_vm1']
+10 - usage: 40.0 | mapping ['aos_vm2']
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 0.0 | mapping []
+1 - usage: 66.0 | mapping ['aos_vm4']
+2 - usage: 0.0 | mapping []
+3 - usage: 67.0 | mapping ['aos_vm6']
+4 - usage: 69.0 | mapping ['aos_vm7']
+5 - usage: 93.0 | mapping ['aos_vm8', 'aos_vm3']
+6 - usage: 0.0 | mapping []
+7 - usage: 30.0 | mapping ['aos_vm1']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 72.0 | mapping ['aos_vm5']
+11 - usage: 34.0 | mapping ['aos_vm2']
+--------------------------------------------------
+0 - usage: 54.0 | mapping ['aos_vm6']
+1 - usage: 16.0 | mapping ['aos_vm8']
+2 - usage: 53.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 54.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 53.0 | mapping ['aos_vm5']
+7 - usage: 16.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 55.0 | mapping ['aos_vm6']
+1 - usage: 17.0 | mapping ['aos_vm8']
+2 - usage: 54.0 | mapping ['aos_vm4']
+3 - usage: 14.0 | mapping ['aos_vm1']
+4 - usage: 55.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 54.0 | mapping ['aos_vm5']
+7 - usage: 16.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 54.0 | mapping ['aos_vm6']
+1 - usage: 17.0 | mapping ['aos_vm8']
+2 - usage: 55.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 54.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 55.0 | mapping ['aos_vm5']
+7 - usage: 17.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 54.0 | mapping ['aos_vm6']
+1 - usage: 17.0 | mapping ['aos_vm8']
+2 - usage: 53.0 | mapping ['aos_vm4']
+3 - usage: 15.0 | mapping ['aos_vm1']
+4 - usage: 55.0 | mapping ['aos_vm7']
+5 - usage: 16.0 | mapping ['aos_vm2']
+6 - usage: 55.0 | mapping ['aos_vm5']
+7 - usage: 17.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 55.0 | mapping ['aos_vm6']
+1 - usage: 17.0 | mapping ['aos_vm8']
+2 - usage: 54.0 | mapping ['aos_vm4']
+3 - usage: 15.0 | mapping ['aos_vm1']
+4 - usage: 54.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 55.0 | mapping ['aos_vm5']
+7 - usage: 17.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 54.0 | mapping ['aos_vm6']
+1 - usage: 17.0 | mapping ['aos_vm8']
+2 - usage: 54.0 | mapping ['aos_vm4']
+3 - usage: 16.0 | mapping ['aos_vm1']
+4 - usage: 55.0 | mapping ['aos_vm7']
+5 - usage: 16.0 | mapping ['aos_vm2']
+6 - usage: 54.0 | mapping ['aos_vm5']
+7 - usage: 16.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+--------------------------------------------------
+0 - usage: 55.0 | mapping ['aos_vm6']
+1 - usage: 17.0 | mapping ['aos_vm8']
+2 - usage: 55.0 | mapping ['aos_vm4']
+3 - usage: 15.0 | mapping ['aos_vm1']
+4 - usage: 54.0 | mapping ['aos_vm7']
+5 - usage: 15.0 | mapping ['aos_vm2']
+6 - usage: 54.0 | mapping ['aos_vm5']
+7 - usage: 17.0 | mapping ['aos_vm3']
+8 - usage: 0.0 | mapping []
+9 - usage: 0.0 | mapping []
+10 - usage: 0.0 | mapping []
+11 - usage: 0.0 | mapping []
+^CTraceback (most recent call last):
+  File "./monitor.py", line 117, in <module>
+    s.run()
+  File "/usr/lib/python2.7/sched.py", line 111, in run
+    delayfunc(time - now
