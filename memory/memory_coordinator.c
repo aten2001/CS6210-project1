@@ -41,7 +41,7 @@ virNodeMemoryStatsPtr getNodeMemoryStats(virConnectPtr *conn){
 }
 
 void setMemory(virDomainPtr *domains, int vcpuIndex, int amountOfMemory){
-    if(virDomainSetMemory(domains[vcpuIndex], 500) < 0){
+    if(virDomainSetMemory(domains[vcpuIndex], amountOfMemory) < 0){
         printf("Error:  Memory set failed!");
     };
 }
@@ -54,6 +54,8 @@ void getVCPUMemoryStats(virDomainPtr *domains, int *numberOfVCPUS, virConnectPtr
     virDomainMemoryStatPtr stats_begin_array[*numberOfVCPUS];
     virDomainMemoryStatPtr stats_end_array[*numberOfVCPUS];
     int nr_stats = 9;
+    int actualMemIndex = 0;
+    int unusedIndex = 0;
 
 
     int i=0;
@@ -70,8 +72,19 @@ void getVCPUMemoryStats(virDomainPtr *domains, int *numberOfVCPUS, virConnectPtr
     for (i = 0; i< *numberOfVCPUS; i++){
         virDomainMemoryStatPtr stats_end = calloc(nr_stats, sizeof(virDomainMemoryStatStruct));
         int ret = virDomainMemoryStats(domains[i], stats_end, nr_stats, 0);
-        printf("Unused begin:  %lli, end:  %lli, diff: %i\n", stats_begin_array[i][5].val, stats_end[5].val, stats_end[5].val < stats_begin_array[i][5].val);
-        if(stats_end[4].val < stats_begin_array[i][4].val){ //Comparing Unused Memory
+
+        int j;
+        for(j=0; j<nr_stats; j++){
+            if(stats_end[j].tag == 6){
+                actualMemIndex=j;
+            }
+            if(stats_end[j].tag == 4){
+                unusedIndex=j;
+            }
+        }
+
+        printf("Unused begin:  %lli, end:  %lli, diff: %i\n", stats_begin_array[i][unusedIndex].val, stats_end[unusedIndex].val, stats_end[unusedIndex].val < stats_begin_array[i][unusedIndex].val);
+        if(stats_end[unusedIndex].val < stats_begin_array[i][unusedIndex].val){ //Comparing Unused Memory
             isvcpuMemUsageInc[i] = true;
         }else{
             isvcpuMemUsageInc[i] = false;
@@ -90,14 +103,29 @@ void getVCPUMemoryStats(virDomainPtr *domains, int *numberOfVCPUS, virConnectPtr
     for(i = 0; i < *numberOfVCPUS; i++){
         printf("VCPU %i---\n", i);
         printf("\tMemory Usage Increasing:  %d\n", isvcpuMemUsageInc[i]);
-        printf("\tActual Memory (kibi):  %lli\n", stats_end_array[i][1].val);
-        printf("\tUsed Memory (kb):  %lli\n", stats_end_array[i][5].val);
+        printf("\tActual Memory (kibi):  %lli\n", stats_end_array[i][actualMemIndex].val);
+        printf("\tUsed Memory (kb):  %lli\n", stats_end_array[i][unusedIndex].val);
     }
     printf("\nFree Memory in Host:  %lli\n", params[1].value);
 
     printf("\n---------------------\nStep 4: Trim Memory:\n\n");
+    for(i = 0; i< *numberOfVCPUS; i++){
+        if(!isvcpuMemUsageInc[i]){
+            if(stats_end_array[i][unusedIndex].val - stats_end_array[i][actualMemIndex].val * 0.1 > 80000){
+                printf("Trim Memory for %i to %f\n", i, stats_end_array[i][actualMemIndex].val * 0.9);
+                setMemory(domains, i, stats_end_array[i][actualMemIndex].val * 0.9);
+            }
+        }
+    }
 
     printf("\n---------------------\nStep 5: Allocate Memory:\n\n");
+    for (i=0; i<*numberOfVCPUS; i++){
+        if(isvcpuMemUsageInc){
+            if(stats_end_array[i][unusedIndex].val , stats_end_array[i][actualMemIndex].val * 0.2){
+                printf("Increase memory for %i to %f\n", i, stats_end_array[i][actualMemIndex].val * 1.2);
+            }
+        }
+    }
 }
 
 void cleanup(virConnectPtr *conn, virDomainPtr *domains, int *numberOfVCPUS){
